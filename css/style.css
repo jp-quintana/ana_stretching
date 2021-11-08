@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #FAFAFA;
+}
+
+header div div {
+  color: #3534BE;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-items: center;
+}
+
+header div div .pPSD {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 4.697rem;
+}
+
+header div div .pClickAqui {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 2.8325rem;
+  line-height: 2.1rem;
+}
+
+header div div .pClickAqui a {
+  color: #3534BE;
+}
+
+#headerInicio {
+  background-color: #E5EBF9;
+  width: 37.5rem;
+  height: 45.818rem;
+}
+
+.navbar-toggler {
+  border: none;
+  position: absolute;
+  left: 31.135rem;
+  top: 2rem;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.imgPrincipalInicio {
+  width: 33.373rem;
+  height: 22.347rem;
+  margin: 7.303rem 2.063rem 1.637rem 2.063rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../assets/inicio/iconoir_menu.png);
+}
+
+footer {
+  background-color: #3534BE;
+}
