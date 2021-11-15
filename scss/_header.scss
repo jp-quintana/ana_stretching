@@ -35,6 +35,20 @@ header {
 
 }
 
+#menuNav {
+    li {
+        a {
+            color: #242367;
+        }
+
+        ul {
+            a {
+                color: #242367;
+            }
+        }
+    }
+}
+
 #headerInicio {
     background-color: #E5EBF9;
     width: 37.5rem;

@@ -8,10 +8,17 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   background-color: #FAFAFA;
 }
-
 header div div {
   color: #3534BE;
   display: flex;
@@ -19,23 +26,27 @@ header div div {
   align-items: center;
   justify-items: center;
 }
-
 header div div .pPSD {
   font-size: 1.6rem;
   line-height: 1.9rem;
   letter-spacing: 0.05em;
   margin-bottom: 4.697rem;
 }
-
 header div div .pClickAqui {
   font-size: 1.8rem;
   text-align: center;
   margin: 0 2.8325rem;
   line-height: 2.1rem;
 }
-
 header div div .pClickAqui a {
   color: #3534BE;
+}
+
+#menuNav li a {
+  color: #242367;
+}
+#menuNav li ul a {
+  color: #242367;
 }
 
 #headerInicio {
@@ -50,7 +61,6 @@ header div div .pClickAqui a {
   left: 31.135rem;
   top: 2rem;
 }
-
 .navbar-toggler .navbar-toggler-icon {
   width: 4rem;
   height: 4rem;
@@ -68,4 +78,93 @@ header div div .pClickAqui a {
 
 footer {
   background-color: #3534BE;
+}
+
+.logoFooter {
+  width: 10.477rem;
+  height: 3.651rem;
+  margin: 2.604rem 0 2.256rem 2.063rem;
+}
+
+.colorLetrasFooter {
+  color: #FAFAFA;
+}
+
+.liFooter {
+  list-style-type: none;
+}
+.liFooter a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+#footerPrimeraParte {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.div_pFooter {
+  width: 11.757rem;
+  height: 6.4rem;
+  margin-left: 1.931rem;
+}
+
+#pFooter {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+#divRedesSociales {
+  margin: 4.405rem 2.084rem 0 0;
+  text-align: center;
+}
+#divRedesSociales li {
+  margin-bottom: 1.5rem;
+}
+#divRedesSociales li a img {
+  margin-right: 0.541rem;
+}
+
+.redesSocialesFooter {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.sizeIconInstagram {
+  width: 2rem;
+  height: 2.1rem;
+}
+
+.sizeIconWhatsapp {
+  width: 2.6rem;
+  height: 2.6rem;
+}
+
+.sizeIconMail {
+  width: 2rem;
+  height: 2rem;
+}
+
+#copyright {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: center;
+  width: 23.528rem;
+  height: 5.4rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 7.007rem 1.567rem 6.986rem;
+}
+#copyright img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+#pCopyright {
+  font-family: "Inter";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  margin: 1rem;
 }
