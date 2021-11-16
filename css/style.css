@@ -18,41 +18,45 @@ a {
 
 header {
   background-color: #FAFAFA;
-}
-header div div {
-  color: #3534BE;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-items: center;
-}
-header div div .pPSD {
-  font-size: 1.6rem;
-  line-height: 1.9rem;
-  letter-spacing: 0.05em;
-  margin-bottom: 4.697rem;
-}
-header div div .pClickAqui {
-  font-size: 1.8rem;
-  text-align: center;
-  margin: 0 2.8325rem;
-  line-height: 2.1rem;
-}
-header div div .pClickAqui a {
-  color: #3534BE;
-}
-
-#menuNav li a {
-  color: #242367;
-}
-#menuNav li ul a {
-  color: #242367;
+  width: 100%;
+  height: 72rem;
 }
 
 #headerInicio {
   background-color: #E5EBF9;
-  width: 37.5rem;
-  height: 45.818rem;
+}
+
+#menuNav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5.037rem;
+}
+
+.navDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-right: 3.5rem;
+}
+
+#liServicios {
+  margin-right: 26.591rem;
+}
+
+.nav-link {
+  color: #242367;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+#navDropdown li a {
+  color: #242367;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  font-weight: normal;
 }
 
 .navbar-toggler {
@@ -66,24 +70,43 @@ header div div .pClickAqui a {
   height: 4rem;
 }
 
-.imgPrincipalInicio {
-  width: 33.373rem;
-  height: 22.347rem;
-  margin: 7.303rem 2.063rem 1.637rem 2.063rem;
-}
-
 .navbar-light .navbar-toggler-icon {
   background-image: url(../assets/inicio/iconoir_menu.png);
 }
 
+.imgPrincipalInicio {
+  width: 78.537rem;
+  height: 52.588rem;
+  margin: 1.1rem 25.863rem 3.392rem 23.6rem;
+}
+
+.pPSD {
+  color: #3534BE;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.pClickAqui {
+  color: #3534BE;
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  text-align: center;
+  margin-bottom: 5.364rem;
+}
+.pClickAqui a {
+  color: #3534BE;
+}
+
 footer {
   background-color: #3534BE;
+  height: 26.634rem;
 }
 
 .logoFooter {
-  width: 10.477rem;
-  height: 3.651rem;
-  margin: 2.604rem 0 2.256rem 2.063rem;
+  width: 12.044rem;
+  height: 4.197rem;
 }
 
 .colorLetrasFooter {
@@ -95,8 +118,8 @@ footer {
 }
 .liFooter a {
   font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 1.9rem;
+  /*font-size: 1.6rem;
+  line-height: 1.9rem;*/
 }
 
 #footerPrimeraParte {
@@ -105,66 +128,172 @@ footer {
   justify-content: space-between;
 }
 
+/*
 .div_pFooter {
-  width: 11.757rem;
-  height: 6.4rem;
-  margin-left: 1.931rem;
+    width: 11.757rem;
+    height: 6.4rem;
+    margin-left: 1.931rem;
 }
 
 #pFooter {
-  font-size: 1.4rem;
-  line-height: 1.6rem;
-}
-
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}*/
 #divRedesSociales {
-  margin: 4.405rem 2.084rem 0 0;
+  /*margin: 4.405rem 2.084rem 0 0;*/
   text-align: center;
-}
-#divRedesSociales li {
-  margin-bottom: 1.5rem;
-}
-#divRedesSociales li a img {
-  margin-right: 0.541rem;
+  /*
+      li {
+          margin-bottom: 1.5rem;
+
+          a {
+
+              img {
+                  margin-right: 0.541rem;
+              }
+          }
+      }*/
 }
 
+/*
 .redesSocialesFooter {
-  font-size: 1.6rem;
-  line-height: 1.9rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
 }
 
 .sizeIconInstagram {
-  width: 2rem;
-  height: 2.1rem;
+    width: 2rem;
+    height: 2.1rem;
 }
 
 .sizeIconWhatsapp {
-  width: 2.6rem;
-  height: 2.6rem;
+    width: 2.6rem;
+    height: 2.6rem;
 }
 
 .sizeIconMail {
-  width: 2rem;
-  height: 2rem;
-}
-
+    width: 2rem;
+    height: 2rem;
+}*/
 #copyright {
   display: flex;
   flex-flow: row nowrap;
   text-align: center;
-  width: 23.528rem;
-  height: 5.4rem;
   justify-content: center;
   align-items: center;
+  /*width: 23.528rem;
+  height: 5.4rem;
   margin: 0 7.007rem 1.567rem 6.986rem;
-}
-#copyright img {
-  width: 2.4rem;
-  height: 2.4rem;
+
+  img {
+      width: 2.4rem;
+      height: 2.4rem;
+  }*/
 }
 
 #pCopyright {
   font-family: "Inter";
-  font-size: 1.4rem;
+  /*font-size: 1.4rem;
   line-height: 1.7rem;
-  margin: 1rem;
+  margin: 1rem;*/
+}
+
+@media only screen and (max-width: 768px) {
+  header div div .pPSD {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 4.697rem;
+  }
+  header div div .pClickAqui {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 2.8325rem;
+    line-height: 2.1rem;
+  }
+
+  #headerInicio {
+    width: 37.5rem;
+    height: 45.818rem;
+  }
+
+  .navbar-toggler {
+    left: 31.135rem;
+    top: 2rem;
+  }
+
+  .imgPrincipalInicio {
+    width: 33.373rem;
+    height: 22.347rem;
+    margin: 7.303rem 2.063rem 1.637rem 2.063rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .logoFooter {
+    width: 10.477rem;
+    height: 3.651rem;
+    margin: 2.604rem 0 2.256rem 2.063rem;
+  }
+
+  .liFooter a {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+
+  .div_pFooter {
+    width: 11.757rem;
+    height: 6.4rem;
+    margin-left: 1.931rem;
+  }
+
+  #pFooter {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  #divRedesSociales {
+    margin: 4.405rem 2.084rem 0 0;
+  }
+  #divRedesSociales li {
+    margin-bottom: 1.5rem;
+  }
+  #divRedesSociales li a img {
+    margin-right: 0.541rem;
+  }
+
+  .redesSocialesFooter {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+
+  .sizeIconInstagram {
+    width: 2rem;
+    height: 2.1rem;
+  }
+
+  .sizeIconWhatsapp {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+
+  .sizeIconMail {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #copyright {
+    width: 23.528rem;
+    height: 5.4rem;
+    margin: 0 7.007rem 1.567rem 6.986rem;
+  }
+  #copyright img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  #pCopyright {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin: 1rem;
+  }
 }

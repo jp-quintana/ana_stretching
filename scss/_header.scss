@@ -3,57 +3,52 @@ $colorAzulTexto: #3534BE;
 
 header {
     background-color: #FAFAFA;
-
-    div {
-        div {
-            color: $colorAzulTexto;
-            display: flex;
-            flex-flow: column nowrap;
-            align-items: center;
-            justify-items: center;
-
-            .pPSD {
-                font-size: 1.6rem;
-                line-height: 1.9rem;
-                letter-spacing: 0.05em;
-                margin-bottom: 4.697rem;
-            }
-
-            .pClickAqui {
-                font-size: 1.8rem;
-                text-align: center;
-                margin: 0 2.8325rem;
-                line-height: 2.1rem;
-
-                a {
-                    color: $colorAzulTexto;
-                    
-                }
-            }
-        }
-    }
-
-}
-
-#menuNav {
-    li {
-        a {
-            color: #242367;
-        }
-
-        ul {
-            a {
-                color: #242367;
-            }
-        }
-    }
+    width: 100%;
+    height: 72rem;
 }
 
 #headerInicio {
     background-color: #E5EBF9;
-    width: 37.5rem;
-    height: 45.818rem;
 }
+
+#menuNav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.037rem;
+}
+
+.navDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-right: 3.5rem;
+}
+
+#liServicios {
+    margin-right: 26.591rem;
+}
+
+.nav-link {
+    color: #242367;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+}
+
+#navDropdown {
+    li {
+        a {
+            color: #242367;
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            font-weight: normal;
+        }
+    }
+}
+
+
 
 .navbar-toggler {
     border: none;
@@ -65,17 +60,35 @@ header {
         width: 4rem;
         height: 4rem;
     }
-
-}
-
-.imgPrincipalInicio {
-            
-    width: 33.373rem;
-    height: 22.347rem;
-    margin: 7.303rem 2.063rem 1.637rem 2.063rem;
-    
 }
 
 .navbar-light .navbar-toggler-icon {
     background-image: url(../assets/inicio/iconoir_menu.png);
+}
+
+.imgPrincipalInicio {          
+    width: 78.537rem;
+    height: 52.588rem;
+    margin: 1.1rem 25.863rem 3.392rem 23.6rem;
+}
+
+.pPSD {
+    color: $colorAzulTexto;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+}
+
+.pClickAqui {
+    color: $colorAzulTexto;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    text-align: center;
+    margin-bottom: 5.364rem;
+
+    a {
+        color: $colorAzulTexto;
+    }
 }

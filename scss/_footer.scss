@@ -1,11 +1,12 @@
 footer {
     background-color: #3534BE;
+    height: 26.634rem;
 }
 
 .logoFooter {
-    width: 10.477rem;
-    height: 3.651rem;
-    margin: 2.604rem 0 2.256rem 2.063rem;
+    width: 12.044rem;
+    height: 4.197rem;
+    //margin: 2.604rem 0 2.256rem 2.063rem;
 }
 
 .colorLetrasFooter {
@@ -18,8 +19,8 @@ footer {
 
     a {
         font-weight: 500;
-        font-size: 1.6rem;
-        line-height: 1.9rem;
+        /*font-size: 1.6rem;
+        line-height: 1.9rem;*/
     }
 }
 
@@ -28,7 +29,7 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-between;
 }
-
+/*
 .div_pFooter {
     width: 11.757rem;
     height: 6.4rem;
@@ -38,12 +39,12 @@ footer {
 #pFooter {
     font-size: 1.4rem;
     line-height: 1.6rem;
-}
+}*/
 
 #divRedesSociales {
-    margin: 4.405rem 2.084rem 0 0;
+    /*margin: 4.405rem 2.084rem 0 0;*/
     text-align: center;
-
+/*
     li {
         margin-bottom: 1.5rem;
 
@@ -53,9 +54,9 @@ footer {
                 margin-right: 0.541rem;
             }
         }
-    }
+    }*/
 }
-
+/*
 .redesSocialesFooter {
     font-size: 1.6rem;
     line-height: 1.9rem;
@@ -74,27 +75,27 @@ footer {
 .sizeIconMail {
     width: 2rem;
     height: 2rem;
-}
+}*/
 
 #copyright {
     display: flex;
     flex-flow: row nowrap;
     text-align: center;
-    width: 23.528rem;
-    height: 5.4rem;
     justify-content: center;
     align-items: center;
+    /*width: 23.528rem;
+    height: 5.4rem;
     margin: 0 7.007rem 1.567rem 6.986rem;
 
     img {
         width: 2.4rem;
         height: 2.4rem;
-    }
+    }*/
 }
 
 #pCopyright {
     font-family: 'Inter';
-    font-size: 1.4rem;
+    /*font-size: 1.4rem;
     line-height: 1.7rem;
-    margin: 1rem;
+    margin: 1rem;*/
 }
