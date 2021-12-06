@@ -1,23 +1,8 @@
 //BENEFICIOS
 
-.subtituloindex {
-    color: #242367;
-    font-size: 3rem;
-    line-height: 3.5rem;
-    text-align: center;
-}
-
 #h2Beneficios {
     margin-top: 13.195rem;
     margin-bottom: 2.05rem;
-}
-
-#h3Beneficios {
-    color: #8BAAFC;
-    font-family: New York Extra Large;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    text-align: center;
 }
 
 #ulBeneficios {
@@ -52,4 +37,58 @@
 #img2-Index {
     width: 26.7rem;
     height: 26.7rem;
+}
+
+#divsectionBeneficios-Inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+//CONTACTO
+
+.img14 {
+    width: 64rem;
+    height: 47.433rem;
+}
+
+.sectionContacto {
+    display: flex;
+    flex-direction: row;
+}
+
+.divsectionContacto {
+    background: #FFFFFF;
+    border: 2px solid #111111;
+    width: 100%;
+    height: 47.433rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4sectionContacto {
+    font-family: New York Extra Large;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #8BAAFC;
+    margin-top: 7.208rem;
+    margin-bottom: 5.42rem;
+}
+
+.psectionContacto {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #4D4D4D;
+    margin-bottom: 3.889rem;
+}
+
+.iconsectionContacto {
+    width: 6.22rem;
+    height: 6.22rem;
+    margin-top: 1.531rem;
+    margin-bottom: 6.089rem;
 }
