@@ -74,11 +74,11 @@ h3 {
 header {
   background-color: #FAFAFA;
   width: 100%;
-  height: 72rem;
 }
 
 #headerInicio {
   background-color: #E5EBF9;
+  height: 72rem;
 }
 
 #menuNav {
@@ -248,19 +248,25 @@ header {
 #sectionPrincipal-SobreMi {
   background-image: url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
   background-color: transparent;
+  background-repeat: no-repeat;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  margin: 25.031rem 27.704rem 10.923rem 27.704rem;
+  width: 128rem;
+  height: 59.463rem;
+  margin-bottom: 7.991rem;
 }
 
-#h1sectionPrincipal-SobreMi {
+.h1sectionPrincipal {
   font-size: 5rem;
   line-height: 5.9rem;
   text-align: center;
   color: #FAFAFA;
   text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#h1sectionPrincipal-SobreMi {
   margin-bottom: 5.408rem;
 }
 
@@ -287,6 +293,67 @@ header {
 #h2sectionTrayectoria-SobreMi {
   margin-top: 17.606rem;
   margin-bottom: 2.05rem;
+}
+
+.sectionPrincipal-Servicios {
+  background-image: url(../assets/servicios/pexels-karolina-grabowska-4498610.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 128rem;
+  height: 59.463rem;
+  margin-bottom: 7.991rem;
+}
+
+.h2sectionPresentacion-Servicios {
+  margin-top: 2.05rem;
+  margin-bottom: 9.456rem;
+}
+
+.divIcons-sectionPresentacion-Servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 34.1rem;
+}
+
+.div-div-sectionPresentacion-Servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-sectionPresentacion-Servicios {
+  width: 7.961rem;
+  height: 7.961rem;
+}
+
+.pIcon-sectionPresentacion-Servicios {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #3534BE;
+  margin-top: 1.844rem;
+}
+
+.divP-sectionPresentacion-Servicios {
+  display: flex;
+  flex-direction: row;
+  margin: 7.356rem 18.81rem 14.866rem 18.81rem;
+}
+
+.p-sectionPresentacion-Servicios {
+  margin-right: 9.9rem;
+}
+
+.h3-sectionGaleria-Servicios {
+  margin-top: 2.05rem;
+  margin-bottom: 11.977rem;
 }
 
 footer {
