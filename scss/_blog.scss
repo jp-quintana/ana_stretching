@@ -1,0 +1,34 @@
+#sectionPrincipal-Blog {
+    background-image: url(../assets/blog/pexels-elina-fairytale-3823117.png);
+    background-color: transparent;
+    background-repeat: no-repeat; //arreglar visualización de la imagen
+    //width: 128rem;
+    //height: 59.463rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7.991rem;
+}
+
+#h1-sectionPrincipal-Blog {
+    margin-top: 20.488rem;
+}
+
+#h2-sectionPrincipal-Blog {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #FAFAFA;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 2.386rem;
+    margin-bottom: 4.065rem;
+}
+
+#boton-sectionPrincipal-Blog {
+    margin-bottom: 11.623rem;
+}
+
+#h2-sectionArticulos-Blog {
+    margin-top: 2.05rem;
+    margin-bottom: 7.751rem;
+}
