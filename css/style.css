@@ -389,6 +389,114 @@ header {
   margin-bottom: 7.751rem;
 }
 
+.img-sectionPrincipal-Articulo {
+  width: 128.526rem;
+  height: 48.918rem;
+  margin-bottom: 6.133rem;
+}
+
+.h2-sectionArticulo-Articulo {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #242367;
+  margin-bottom: 2.727rem;
+  text-align: left;
+}
+
+.h4-sectionArticulo-Articulo {
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  color: #4D4D4D;
+  margin-bottom: 10.092rem;
+  text-align: left;
+}
+
+.sectionArticulo-Articulo {
+  margin: 0rem 18.2rem 11.492rem 18.2rem;
+}
+
+.List-sectionArticulo-Articulo {
+  list-style-type: disc;
+}
+
+.p-sectionArticulo-Articulo {
+  margin-bottom: 2rem;
+}
+
+.h2-sectionOtrosArticulos-Articulo {
+  margin-top: 2.05rem;
+  margin-bottom: 10.875rem;
+}
+
+.div-sectionOtrosArticulos-Articulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-img-top {
+  height: 23.927rem;
+  width: 35.899rem;
+  margin-bottom: 3.112rem;
+}
+
+.card {
+  width: 35.899rem;
+  margin-bottom: 27.261rem;
+  background-color: #E5E5E5;
+  border: none;
+}
+
+.p-sectionOtrosArticulos-Articulo {
+  margin-bottom: 4rem;
+}
+
+#sectionPrincipal-PreguntasFrecuentes {
+  background-image: url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 128rem;
+  height: 59.463rem;
+  margin-bottom: 7.991rem;
+}
+
+#h2-sectionPreguntas-PreguntasFrecuentes {
+  margin-top: 2.05rem;
+  margin-bottom: 14.252rem;
+}
+
+#accordionFlushExample2 {
+  width: 91.821rem;
+  margin: 0rem 17.981rem 23.426rem 18.198rem;
+  margin-bottom: 23.426rem;
+}
+
+.button-sectionPreguntas-PreguntasFrecuentes {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #4D4D4D;
+  padding: 1.7rem 0rem;
+  padding-left: 1rem;
+  background-color: #E5E5E5;
+  border-bottom: 1px solid rgba(77, 77, 77, 0.2);
+}
+
+#button1-sectionPreguntas-PreguntasFrecuentes {
+  border-top: 1px solid rgba(77, 77, 77, 0.2);
+}
+
+.accordion-button::after {
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 89.421rem;
+  top: 1.529rem;
+}
+
 footer {
   background-color: #3534BE;
   height: 26.634rem;
