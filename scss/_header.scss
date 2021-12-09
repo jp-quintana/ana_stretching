@@ -4,7 +4,6 @@ $colorAzulTexto: #3534BE;
 header {
     background-color: #FAFAFA;
     width: 100%;
-
 }
 
 #headerInicio {
@@ -12,10 +11,25 @@ header {
     height: 72rem;
 }
 
+.headerPages {
+    height: 12.537rem;
+}
+
+.logo1-header {
+    visibility: hidden;
+}
+
 #menuNav {
     display: flex;
     justify-content: space-between;
+}
+
+.menuNavInicio {
     margin-top: 5.037rem;
+}
+
+.menuNavPages {
+    margin-top: 3.244rem;
 }
 
 .navDiv {
