@@ -1,13 +1,13 @@
 #sectionPrincipal-PreguntasFrecuentes {
-    background-image: url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
-    background-color: transparent;
+    background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
+    background-position: bottom;
+    background-size: cover;
     background-repeat: no-repeat;  //arreglar visualización de la imagen
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 128rem;
-    height: 59.463rem;
+    height: 70rem;
     margin-bottom: 7.991rem;
 }
 
@@ -42,5 +42,13 @@
     height: 2.4rem;
     left: 89.421rem;
     top: 1.529rem;
+}
+
+.accordion-body {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #4D4D4D;
+    background-color: #E5E5E5;
+
 }
 

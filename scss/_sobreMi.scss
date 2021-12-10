@@ -1,15 +1,14 @@
 
 #sectionPrincipal-SobreMi {
-
-    background-image: url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
-    background-color: transparent;
+    background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
+    background-position: bottom;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 128rem;
-    height: 59.463rem;
+    height: 70rem;
     margin-bottom: 7.991rem;
 
 }

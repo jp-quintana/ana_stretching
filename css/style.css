@@ -296,15 +296,15 @@ header {
 }
 
 #sectionPrincipal-SobreMi {
-  background-image: url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
-  background-color: transparent;
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
+  background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 128rem;
-  height: 59.463rem;
+  height: 70rem;
   margin-bottom: 7.991rem;
 }
 
@@ -346,15 +346,15 @@ header {
 }
 
 .sectionPrincipal-Servicios {
-  background-image: url(../assets/servicios/pexels-karolina-grabowska-4498610.png);
-  background-color: transparent;
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png);
+  background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 128rem;
-  height: 59.463rem;
+  height: 70rem;
   margin-bottom: 7.991rem;
 }
 
@@ -407,9 +407,11 @@ header {
 }
 
 #sectionPrincipal-Blog {
-  background-image: url(../assets/blog/pexels-elina-fairytale-3823117.png);
-  background-color: transparent;
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/blog/pexels-elina-fairytale-3823117.png);
+  background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 70rem;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -503,15 +505,15 @@ header {
 }
 
 #sectionPrincipal-PreguntasFrecuentes {
-  background-image: url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
-  background-color: transparent;
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
+  background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  width: 128rem;
-  height: 59.463rem;
+  height: 70rem;
   margin-bottom: 7.991rem;
 }
 
@@ -545,6 +547,13 @@ header {
   height: 2.4rem;
   left: 89.421rem;
   top: 1.529rem;
+}
+
+.accordion-body {
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #4D4D4D;
+  background-color: #E5E5E5;
 }
 
 footer {
