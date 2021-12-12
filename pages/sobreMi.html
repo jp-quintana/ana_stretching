@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="container-fluid headerPages">
-        <a href="../index.html" ><img src="../assets/inicio/logo.svg" alt="logo" class="logo1-header"></a>
+        <!--<a href="../index.html" ><img src="../assets/inicio/logo.svg" alt="logo" class="logo1-header"></a>-->
         <div class="row">
             <nav class="navbar navbar-expand-xl navbar-light p-auto">
                 <div class="container-fluid" id="header">
@@ -23,7 +23,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto menu2 menuNavPages" id="menuNav">
                             <li class="nav-item">
-                                <a class="nav-link active"  id="activo" aria-current="page" href="../index.html">Inicio</a>
+                                <a class="nav-link"  id="activo" aria-current="page" href="../index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="sobreMi.html">Sobre mi</a>
@@ -33,12 +33,18 @@
                                     Servicios
                                 </a>
                                 <ul id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                                    <li>Presencial / Online</li>
-                                    <li><a class="dropdown-item" href="servicios_pilates.html">Pilates</a></li>
-                                    <li><a class="dropdown-item" href="servicios_stretching.html">Stretching</a></li>
-                                    <li><a class="dropdown-item" href="servicios_modernJazz.html">Modern Jazz</a></li>
-                                    <li>Online</li>
-                                    <li><a class="dropdown-item" href="servicios_cursoModernJazz.html">Curso Modern Jazz</a></li>
+                                    <div>
+                                        <li class="tituloDropdown">Presencial / Online</li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="servicios_pilates.html">Pilates</a></li>
+                                        <li><a class="dropdown-item" href="servicios_stretching.html">Stretching</a></li>
+                                        <li><a class="dropdown-item" href="servicios_modernJazz.html">Modern Jazz</a></li>
+                                    </div>
+                                    <div>
+                                        <li class="tituloDropdown">Online</li>
+                                        <hr>
+                                        <li><a class="dropdown-item" href="servicios_cursoModernJazz.html">Curso con certificación <br> Modern Jazz</a></li>
+                                    </div>
                                 </ul>
                             </li>
                             <img src="../assets/inicio/logo.svg" alt="logo" class="logo2-header">
@@ -48,9 +54,8 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="preguntasFrecuentes.html">Preguntas frecuentes</a>
                             </li>
-                            <!-- linkear a el fin de pagina donde estan los datos de contacto-->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link" href="sobreMi.html#contacto-sobreMi">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -84,7 +89,7 @@
                 </div>
             </div>
         </section>
-        <section class="sectionContacto">
+        <section class="sectionContacto" id="contacto-sobreMi">
             <img src="../assets/Sobre_mi/IMG 14.png" alt="" class="img14">
             <div class="divsectionContacto">
                 <h4 class="h4sectionContacto">Datos de contacto</h4>

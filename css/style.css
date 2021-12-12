@@ -120,13 +120,14 @@ header {
   height: 12.537rem;
 }
 
-.logo1-header {
-  visibility: hidden;
+.logo2-header {
+  margin: 0 3rem;
 }
 
 #menuNav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menuNavInicio {
@@ -150,18 +151,38 @@ header {
   margin-right: 26.591rem;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #242367;
+}
+
+.nav-link {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.1rem;
 }
 
-#navDropdown li a {
-  color: #242367;
+#navDropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 51.3rem;
+  height: 23.3rem;
+}
+#navDropdown li {
+  font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.1rem;
+  color: #242367;
+}
+#navDropdown li a {
   font-weight: normal;
+  color: #242367;
+  margin-bottom: 2.8rem;
+}
+
+.tituloDropdown {
+  margin-top: 1.705rem;
+  margin-bottom: 1.452rem;
 }
 
 .navbar-toggler {
