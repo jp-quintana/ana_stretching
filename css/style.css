@@ -120,6 +120,10 @@ header {
   height: 12.537rem;
 }
 
+.logo1-header {
+  visibility: hidden;
+}
+
 .logo2-header {
   margin: 0 3rem;
 }
@@ -161,28 +165,45 @@ header {
   line-height: 2.1rem;
 }
 
-#navDropdown {
+.nav-link-dropdown {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #242367;
+  font-family: Roboto;
+}
+
+.button {
+  border: none;
+}
+
+.dropdown-content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 51.3rem;
   height: 23.3rem;
 }
-#navDropdown li {
+
+.tituloDropdown {
+  margin-top: 1.705rem;
+  margin-bottom: 1.452rem;
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.1rem;
   color: #242367;
 }
-#navDropdown li a {
+
+.dropdown-item {
   font-weight: normal;
   color: #242367;
   margin-bottom: 2.8rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
 }
 
-.tituloDropdown {
-  margin-top: 1.705rem;
-  margin-bottom: 1.452rem;
+.dropdown-divider {
+  background-color: rgba(53, 52, 190, 0.3);
 }
 
 .navbar-toggler {
