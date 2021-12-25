@@ -1,50 +1,62 @@
 $colorAzulTexto: #3534BE;
-
+$breakpoint: 768px;
 
 header {
     background-color: #FAFAFA;
     width: 100%;
 }
 
-#headerInicio {
-    background-color: #E5EBF9;
-    height: 72rem;
+.headerInicio {
+    // background-color: #E5EBF9;
+    background-color: lightblue;
+    height: auto;
 }
 
-.headerPages {
-    height: 12.537rem;
-}
-.logo1-header {
-    visibility: hidden;
-}
-
-.logo2-header {
-    margin: 0 3rem;
+.navbarInicio {
+  padding-top: 3.6rem;
+  padding-bottom: 1rem;
+  &Lista {
+  gap: 3rem;
+  }
 }
 
-#menuNav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.menuNavInicio {
-    margin-top: 5.037rem;
-}
+// .headerPages {
+//     height: 12.537rem;
+// }
 
-.menuNavPages {
-    margin-top: 3.244rem;
-}
+// .logo1-header {
+//     visibility: hidden;
+// }
 
-.navDiv {
-    display: flex;
-    flex-direction: row;
-}
+// .logo2-header {
+//     margin: 0 3rem;
+// }
 
-.nav-item {
-    margin-right: 3.5rem;
-}
+// #menuNav {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
 
+// .menuNavInicio {
+//     margin-top: 5.037rem;
+// }
+
+// .menuNavPages {
+//     margin-top: 3.244rem;
+// }
+
+// .navDiv {
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// .nav-item {
+//     margin-right: 3.5rem;
+// }
+
+//podria llegar a ir un vw aca
 #liServicios {
     margin-right: 26.591rem;
 }
@@ -72,7 +84,6 @@ header {
 }
 
 .dropdown-content {
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -103,9 +114,7 @@ header {
 
 .navbar-toggler {
     border: none;
-    position: absolute;
-    left: 31.135rem;
-    top: 2rem;
+    padding-right: 2rem;
 
     .navbar-toggler-icon {
         width: 4rem;
@@ -113,15 +122,35 @@ header {
     }
 }
 
+// .navbar-toggler {
+//     border: none;
+//     position: absolute;
+//     left: 31.135rem;
+//     top: 2rem;
+//
+//     .navbar-toggler-icon {
+//         width: 4rem;
+//         height: 4rem;
+//     }
+// }
+
+//podria ir una svg aca directamente
 .navbar-light .navbar-toggler-icon {
     background-image: url(../assets/inicio/iconoir_menu.png);
 }
 
-.imgPrincipalInicio {          
-    width: 78.537rem;
-    height: 52.588rem;
-    margin: 1.1rem 25.863rem 3.392rem 23.6rem;
+.imgPrincipalInicio {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem 1.5rem;
 }
+
+// .imgPrincipalInicio {
+//     width: 78.537rem;
+//     height: 52.588rem;
+//     margin: 1.1rem 25.863rem 3.392rem 23.6rem;
+// }
 
 .pPSD {
     color: $colorAzulTexto;
@@ -137,7 +166,7 @@ header {
     font-size: 2.3rem;
     line-height: 2.7rem;
     text-align: center;
-    margin-bottom: 5.364rem;
+    padding-bottom: 5.3rem;
 
     a {
         color: $colorAzulTexto;

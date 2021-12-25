@@ -12,7 +12,110 @@
     <title>Stretching Ana</title>
 </head>
 <body>
-    <header class="container-fluid" id="headerInicio">
+
+
+
+  <!-- TODO -->
+  <!-- linkear a el fin de pagina donde estan los datos de contacto-->
+
+    <header class="headerInicio">
+        <nav class="navbarInicio navbar navbar-expand-xl navbar-light flex-row-reverse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+              <!-- chequear abajo de esto -->
+              <ul class="navbarInicioLista navbar-nav mx-auto text-center menu2 manuNavInicio" id="menuNav">
+                  <li class="nav-item">
+                      <a class="nav-link active"  id="activo" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/sobreMi.html">Sobre mi</a>
+                  </li>
+                  <li class="nav-item dropdown" id="liServicios">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                      </a>
+                      <!-- <ul id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                          <div>
+                              <li class="tituloDropdown">Presencial / Online</li>
+                              <hr>
+                              <li><a class="dropdown-item" href="pages/servicios_pilates.html">Pilates</a></li>
+                              <li><a class="dropdown-item" href="pages/servicios_stretching.html">Stretching</a></li>
+                              <li><a class="dropdown-item" href="pages/servicios_modernJazz.html">Modern Jazz</a></li>
+                          </div>
+                          <div>
+                              <li class="tituloDropdown">Online</li>
+                              <hr>
+                              <li><a class="dropdown-item" href="pages/servicios_cursoModernJazz.html">Curso con certificación <br> Modern Jazz</a></li>
+                          </div>
+                      </ul> -->
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Contacto</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+        <!-- <nav class="navbar navbar-expand-xl p-auto">
+            <div class="container-fluid" id="header">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto menu2 manuNavInicio" id="menuNav">
+                        <li class="nav-item">
+                            <a class="nav-link active"  id="activo" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/sobreMi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item dropdown" id="liServicios">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <ul id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                <div>
+                                    <li class="tituloDropdown">Presencial / Online</li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="pages/servicios_pilates.html">Pilates</a></li>
+                                    <li><a class="dropdown-item" href="pages/servicios_stretching.html">Stretching</a></li>
+                                    <li><a class="dropdown-item" href="pages/servicios_modernJazz.html">Modern Jazz</a></li>
+                                </div>
+                                <div>
+                                    <li class="tituloDropdown">Online</li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="pages/servicios_cursoModernJazz.html">Curso con certificación <br> Modern Jazz</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+
+        <img src="assets/inicio/Logo tamaño grande.png" class="imgPrincipalInicio" alt="logo">
+
+        <p class="pPSD">Pilates - Stretching - Danza</p>
+        <p class="pClickAqui">Consigue tu primer clase de prueba gratuita <a href="#"><u>Click Aquí</u></a></p>
+    </header>
+
+    <!-- <header class="container-fluid" id="headerInicio">
         <div class="row">
             <nav class="navbar navbar-expand-xl p-auto">
                 <div class="container-fluid" id="header">
@@ -52,7 +155,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
                             </li>
-                            <!-- linkear a el fin de pagina donde estan los datos de contacto-->
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contacto</a>
                             </li>
@@ -61,16 +163,26 @@
                 </div>
             </nav>
             <img src="assets/inicio/Logo tamaño grande.png" class="imgPrincipalInicio" alt="logo">
-            <p class="pPSD">Pilates - Stratching - Danza</p>
+            <p class="pPSD">Pilates - <Stre></Stre>tching - Danza</p>
             <p class="pClickAqui">Consigue tu primer clase de prueba gratuita <a href="#"><u>Click Aquí</u></a></p>
         </div>
-    </header>
-    <main>
+    </header> -->
+
+
+
+    <!-- TODO -->
+    <!--Posicionar bien la imagen-->
+    <!-- <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGrafico-arribaDerecha"> -->
+    <!--Hacer carrousel con las fotos-->
+    <!--Agregar la imagen cortada de esa manera-->
+    <!--dar formato-->
+    <!--Armar Carrousel-->
+
+
+    <!-- <main>
         <section id="sectionBeneficios-Inicio">
-            <!--Posicionar bien la imagen-->
             <div class="divElementoGraficoEsquina">
                 <div class="div-divElementoGraficoEsquina div-divElementoGraficoEsquina-derecha">
-                    <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGrafico-arribaDerecha">
                 </div>
             </div>
             <h2 id="h2Beneficios">Beneficios</h2>
@@ -96,7 +208,7 @@
                         </li>
                     </ul>
                 </div>
-            
+
                 <img src="assets/inicio/IMG 1.png" alt="" id="img1-Index">
                 <img src="assets/inicio/IMG 2.png" alt="" id="img2-Index">
             </div>
@@ -105,7 +217,7 @@
             <h2>Servicios actuales</h2>
             <h3>Presencial y online</h3>
             <div>
-                <img src="assets/inicio/IMG 3.png" alt=""> 
+                <img src="assets/inicio/IMG 3.png" alt="">
                 <img src="assets/inicio/IMG 4.png" alt="">
                 <p>
                     <span>Pilates</span> es una disciplina que se basa en el desarrollo de los músculos internos que ayuda a mantener el equilibrio corporal y que da firmeza y fortalece la columna vertebral.
@@ -116,14 +228,13 @@
                     <br>
                     <span>Curso con certificación</span> es una formación online de Modern Jazz con certificación digital, donde se fusionan distintas danzas.
                 </p>
-                <button>¡Empezar YA!</button> <!--dar formato-->
+                <button>¡Empezar YA!</button>
             </div>
         </section>
         <section id="sectionNuestroEspacio-Inicio">
             <img src="assets/inicio/Elemento gráfico.svg" alt="espiral">
             <h2>Nuestro espacio</h2>
             <h3>Galeria de fotos</h3>
-            <!--Hacer carrousel con las fotos-->
         </section>
         <section id="sectionPreguntasFrecuentes-Inicio">
             <h2>Preguntas frecuentes</h2>
@@ -193,7 +304,6 @@
                     </div>
                 </div>
             </div>
-            <!--Agregar la imagen cortada de esa manera-->
             <div class="divElementoGraficoEsquina">
                 <div class="div-divElementoGraficoEsquina div-divElementoGraficoEsquina-izquierda">
                     <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGrafico-abajoIzquierda">
@@ -203,7 +313,6 @@
         <section id="sectionTestimonios-Inicio">
             <h2>Nuestros alumnos</h2>
             <h3>Testimonios</h3>
-            <!--Armar Carrousel-->
             <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc</p>
                 <div>
@@ -255,8 +364,15 @@
         <div class="divFinSections">
             <img src="assets/inicio/Elemento gráfico.svg" alt="" class="espiralCentrado">
         </div>
-    </main>
-    <footer> <!--REHACER FOOTER-->
+    </main> -->
+
+
+
+  <!-- TODO   -->
+  <!--REHACER FOOTER-->
+  <!--PREGUNTAR SI ACÁ VA TAMBIEN UN DROPDOWN-->
+
+    <!-- <footer>
         <div id="footerPrimeraParte">
             <div>
                 <img src="assets/inicio/logoFooter.svg" class="logoFooter" alt="logo">
@@ -279,7 +395,7 @@
                     <a href="pages/sobreMi.html" class="colorLetrasFooter">Sobre mi</a>
                 </li>
                 <li class="liFooter">
-                    <a href="#" class="colorLetrasFooter">Servicios</a><!--PREGUNTAR SI ACÁ VA TAMBIEN UN DROPDOWN-->
+                    <a href="#" class="colorLetrasFooter">Servicios</a>
                 </li>
                 <li class="liFooter">
                     <a href="pages/blog.html" class="colorLetrasFooter">Blog</a>
@@ -291,12 +407,12 @@
                     <a href="#" class="colorLetrasFooter">Contacto</a>
                 </li>
             </ul>
-        </div>    
+        </div>
         <div id="copyright">
-            <img src="assets/inicio/iconoir_copyright.svg" alt="Copyright"> 
+            <img src="assets/inicio/iconoir_copyright.svg" alt="Copyright">
             <p class="colorLetrasFooter" id="pCopyright">2021 Ana Studio () Todos los derechos reservados</p>
         </div>
-    </footer>
+    </footer> -->
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

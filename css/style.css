@@ -91,36 +91,15 @@ header {
   background-color: #FAFAFA;
   width: 100%; }
 
-#headerInicio {
-  background-color: #E5EBF9;
-  height: 72rem; }
+.headerInicio {
+  background-color: lightblue;
+  height: auto; }
 
-.headerPages {
-  height: 12.537rem; }
-
-.logo1-header {
-  visibility: hidden; }
-
-.logo2-header {
-  margin: 0 3rem; }
-
-#menuNav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-.menuNavInicio {
-  margin-top: 5.037rem; }
-
-.menuNavPages {
-  margin-top: 3.244rem; }
-
-.navDiv {
-  display: flex;
-  flex-direction: row; }
-
-.nav-item {
-  margin-right: 3.5rem; }
+.navbarInicio {
+  padding-top: 3.6rem;
+  padding-bottom: 1rem; }
+  .navbarInicioLista {
+    gap: 3rem; }
 
 #liServicios {
   margin-right: 26.591rem; }
@@ -170,9 +149,7 @@ header {
 
 .navbar-toggler {
   border: none;
-  position: absolute;
-  left: 31.135rem;
-  top: 2rem; }
+  padding-right: 2rem; }
   .navbar-toggler .navbar-toggler-icon {
     width: 4rem;
     height: 4rem; }
@@ -181,9 +158,10 @@ header {
   background-image: url(../assets/inicio/iconoir_menu.png); }
 
 .imgPrincipalInicio {
-  width: 78.537rem;
-  height: 52.588rem;
-  margin: 1.1rem 25.863rem 3.392rem 23.6rem; }
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem 1.5rem; }
 
 .pPSD {
   color: #3534BE;
@@ -197,7 +175,7 @@ header {
   font-size: 2.3rem;
   line-height: 2.7rem;
   text-align: center;
-  margin-bottom: 5.364rem; }
+  padding-bottom: 5.3rem; }
   .pClickAqui a {
     color: #3534BE; }
 
@@ -589,72 +567,3 @@ footer {
   /*font-size: 1.4rem;
     line-height: 1.7rem;
     margin: 1rem;*/ }
-
-@media only screen and (max-width: 768px) {
-  header div div .pPSD {
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    letter-spacing: 0.05em;
-    margin-bottom: 4.697rem; }
-  header div div .pClickAqui {
-    font-size: 1.8rem;
-    text-align: center;
-    margin: 0 2.8325rem;
-    line-height: 2.1rem; }
-  #headerInicio {
-    width: 37.5rem;
-    height: 45.818rem; }
-  .navbar-toggler {
-    left: 31.135rem;
-    top: 2rem; }
-  .logo2-header {
-    visibility: hidden; }
-  .imgPrincipalInicio {
-    width: 33.373rem;
-    height: 22.347rem;
-    margin: 7.303rem 2.063rem 1.637rem 2.063rem; } }
-
-@media only screen and (max-width: 768px) {
-  .logoFooter {
-    width: 10.477rem;
-    height: 3.651rem;
-    margin: 2.604rem 0 2.256rem 2.063rem; }
-  .liFooter a {
-    font-size: 1.6rem;
-    line-height: 1.9rem; }
-  .div_pFooter {
-    width: 11.757rem;
-    height: 6.4rem;
-    margin-left: 1.931rem; }
-  #pFooter {
-    font-size: 1.4rem;
-    line-height: 1.6rem; }
-  #divRedesSociales {
-    margin: 4.405rem 2.084rem 0 0; }
-    #divRedesSociales li {
-      margin-bottom: 1.5rem; }
-      #divRedesSociales li a img {
-        margin-right: 0.541rem; }
-  .redesSocialesFooter {
-    font-size: 1.6rem;
-    line-height: 1.9rem; }
-  .sizeIconInstagram {
-    width: 2rem;
-    height: 2.1rem; }
-  .sizeIconWhatsapp {
-    width: 2.6rem;
-    height: 2.6rem; }
-  .sizeIconMail {
-    width: 2rem;
-    height: 2rem; }
-  #copyright {
-    width: 23.528rem;
-    height: 5.4rem;
-    margin: 0 7.007rem 1.567rem 6.986rem; }
-    #copyright img {
-      width: 2.4rem;
-      height: 2.4rem; }
-  #pCopyright {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin: 1rem; } }
