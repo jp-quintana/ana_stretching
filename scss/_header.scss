@@ -15,11 +15,19 @@ header {
 .navbarInicio {
   padding-top: 3.6rem;
   padding-bottom: 1rem;
+  padding: 3.6rem 2rem 1rem 2rem;
+
+  //chequear como mejorar el nav de bootstrap
+  @media (max-width: $breakpoint) {
+    padding: 3.6rem 0 1rem 0;
+  }
+
   &Lista {
   gap: 3rem;
-  }
-}
 
+  }
+
+}
 
 // .headerPages {
 //     height: 12.537rem;
@@ -56,10 +64,16 @@ header {
 //     margin-right: 3.5rem;
 // }
 
-//podria llegar a ir un vw aca
-#liServicios {
-    margin-right: 26.591rem;
+.liServicios {
+    margin-right: 18vw;
+
+    @media (max-width: $breakpoint) {
+      margin-right: 0;
+    }
 }
+// #liServicios {
+//     margin-right: 26.591rem;
+// }
 
 .navbar-light .navbar-nav .nav-link {
     color: #242367;
@@ -114,7 +128,7 @@ header {
 
 .navbar-toggler {
     border: none;
-    padding-right: 2rem;
+    padding-right: 2.3rem;
 
     .navbar-toggler-icon {
         width: 4rem;
@@ -143,7 +157,7 @@ header {
     max-width: 100%;
     display: block;
     margin: 0 auto;
-    padding: 0 1.5rem 3rem 1.5rem;
+    padding: 0 2rem 3rem 2rem;
 }
 
 // .imgPrincipalInicio {
@@ -168,7 +182,13 @@ header {
     text-align: center;
     padding-bottom: 5.3rem;
 
+    @media (max-width: $breakpoint) {
+      margin-top: 5rem;
+    }
+
     a {
         color: $colorAzulTexto;
     }
+
+
 }

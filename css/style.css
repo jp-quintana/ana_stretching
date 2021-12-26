@@ -97,12 +97,19 @@ header {
 
 .navbarInicio {
   padding-top: 3.6rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  padding: 3.6rem 2rem 1rem 2rem; }
+  @media (max-width: 768px) {
+    .navbarInicio {
+      padding: 3.6rem 0 1rem 0; } }
   .navbarInicioLista {
     gap: 3rem; }
 
-#liServicios {
-  margin-right: 26.591rem; }
+.liServicios {
+  margin-right: 18vw; }
+  @media (max-width: 768px) {
+    .liServicios {
+      margin-right: 0; } }
 
 .navbar-light .navbar-nav .nav-link {
   color: #242367; }
@@ -149,7 +156,7 @@ header {
 
 .navbar-toggler {
   border: none;
-  padding-right: 2rem; }
+  padding-right: 2.3rem; }
   .navbar-toggler .navbar-toggler-icon {
     width: 4rem;
     height: 4rem; }
@@ -161,7 +168,7 @@ header {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 0 1.5rem 3rem 1.5rem; }
+  padding: 0 2rem 3rem 2rem; }
 
 .pPSD {
   color: #3534BE;
@@ -176,6 +183,9 @@ header {
   line-height: 2.7rem;
   text-align: center;
   padding-bottom: 5.3rem; }
+  @media (max-width: 768px) {
+    .pClickAqui {
+      margin-top: 5rem; } }
   .pClickAqui a {
     color: #3534BE; }
 
