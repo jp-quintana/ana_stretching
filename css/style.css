@@ -29,6 +29,9 @@ h3 {
   line-height: 3rem;
   text-align: center; }
 
+img {
+  max-width: 100%; }
+
 .buttonUneteALaClase {
   background-color: transparent;
   color: #FAFAFA;
@@ -165,7 +168,6 @@ header {
   background-image: url(../assets/inicio/iconoir_menu.png); }
 
 .imgPrincipalInicio {
-  max-width: 100%;
   display: block;
   margin: 0 auto;
   padding: 0 2rem 3rem 2rem; }
@@ -189,43 +191,52 @@ header {
   .pClickAqui a {
     color: #3534BE; }
 
-#h2Beneficios {
-  margin-top: 13.195rem;
-  margin-bottom: 2.05rem; }
+.h2Beneficios {
+  margin-top: 13rem;
+  margin-bottom: 2rem; }
 
-#ulBeneficios {
-  margin-left: 7.155rem; }
+.contenedorBeneficios-Inicio {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  justify-content: space-between;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .contenedorBeneficios-Inicio {
+      display: flex;
+      justify-content: center; } }
+
+.detallesBeneficios-Inicio {
+  display: grid;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
 
 .liBeneficios {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  padding: 1rem; }
 
 .iconBeneficios {
-  width: 5.933rem;
-  height: 5.933rem; }
+  width: 6rem;
+  height: 6rem; }
 
 .pBeneficios {
   color: #4D4D4D;
   font-weight: 300;
   font-size: 1.8rem;
-  line-height: 2.1rem;
-  text-align: center;
-  margin-left: 3.386rem; }
+  margin: 0 0 0 2rem; }
 
-#img1-Index {
-  width: 26.925rem;
-  height: 40.383rem; }
-
-#img2-Index {
-  width: 26.7rem;
-  height: 26.7rem; }
-
-#divsectionBeneficios-Inicio {
+.imagenesBeneficios-Inicio {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center; }
+  gap: 5rem;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media (max-width: 768px) {
+    .imagenesBeneficios-Inicio {
+      display: none; } }
 
 .img14 {
   width: 64rem;
