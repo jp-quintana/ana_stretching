@@ -62,34 +62,6 @@ img {
   align-items: center;
   justify-content: center; }
 
-.divElementoGraficoEsquina {
-  position: relative; }
-
-.div-divElementoGraficoEsquina {
-  height: 30rem;
-  width: 34.478rem;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0px; }
-
-.div-divElementoGraficoEsquina-derecha {
-  right: 0px; }
-
-.div-divElementoGraficoEsquina-izquierda {
-  left: 0px; }
-
-.elementoGraficoEsquina {
-  position: absolute;
-  width: 46.853rem;
-  height: 51.902rem;
-  transform: rotate(128.39deg); }
-
-.elementoGrafico-arribaDerecha {
-  bottom: 0px; }
-
-.elementoGrafico-abajoIzquierda {
-  right: 0px; }
-
 header {
   background-color: #FAFAFA;
   width: 100%; }
@@ -191,14 +163,28 @@ header {
   .pClickAqui a {
     color: #3534BE; }
 
+.sectionBeneficios-Inicio {
+  position: relative; }
+
+.elementoGraficoEsquina {
+  position: absolute;
+  width: 46.853rem;
+  height: 51.902rem;
+  transform: rotate(128.39deg); }
+
+.elementoGrafico-arribaDerecha {
+  right: -13rem;
+  top: -25rem;
+  z-index: -1; }
+
 .h2Beneficios {
-  margin-top: 13rem;
+  padding-top: 10rem;
   margin-bottom: 2rem; }
 
 .contenedorBeneficios-Inicio {
   margin-top: 8rem;
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 47% 63%;
   justify-content: space-between;
   align-items: center; }
   @media (max-width: 768px) {
@@ -207,9 +193,8 @@ header {
       justify-content: center; } }
 
 .detallesBeneficios-Inicio {
-  display: grid;
-  flex-direction: row;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
   align-items: center; }
 
 .liBeneficios {
