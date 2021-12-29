@@ -25,7 +25,7 @@
 .contenedorBeneficios-Inicio {
     margin-top: 8rem;
     display: grid;
-    grid-template-columns: 47% 63%;
+    grid-template-columns: 47% 53%;
     justify-content: space-between;
     align-items: center;
 
@@ -36,22 +36,11 @@
 
 }
 
-//VER COMO CENTRAR UN UL
-.detallesBeneficios-Inicio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.ulBeneficios{
-
-}
-
 .liBeneficios {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 1rem;
+  padding: 0 5rem 1rem 5rem;
 
   @media (max-width: $breakpoint) {
 
@@ -71,9 +60,9 @@
     margin: 0 0 0 2rem;
 }
 
+//VER SI USAR WRAP U OTRA COSA PARA EL RESPONSIVE
 .imagenesBeneficios-Inicio {
   display: flex;
-  flex-direction: row;
   gap: 5rem;
   align-items: center;
   flex-wrap: wrap;
@@ -88,6 +77,65 @@
 .sectionServiciosActuales-Inicio {
 
 }
+
+.h2Servicios {
+  padding-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.contenedorServicios-Inicio {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 53% 47%;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $breakpoint) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.imagenesServicios-Inicio {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 0;
+
+  @media (max-width: $breakpoint) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    align-items: stretch;
+    margin-bottom: 4rem;
+  }
+
+}
+
+.detallesServicios-Inicio {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6rem;
+}
+
+.pServicios {
+  color: #4D4D4D;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.contenedorBotonServicios {
+  margin-top: 2rem;
+}
+
+.botonServicios {
+  border: none;
+  color: #3534BE;
+  font-size: 2rem;
+}
+
+
 
 //CONTACTO
 
