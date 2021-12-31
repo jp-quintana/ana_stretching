@@ -1,6 +1,7 @@
 //BENEFICIOS
 .sectionBeneficios-Inicio {
   position: relative;
+  margin-top: 10rem;
 }
 
 .elementoGraficoEsquina {
@@ -13,12 +14,11 @@
 //HAY QUE USAR OVERFLOW Y NO Z-INDEX
 .elementoGrafico-arribaDerecha {
   right: -13rem;
-  top: -25rem;
+  top: -35rem;
   z-index: -1;
 }
 
 .h2Beneficios {
-    padding-top: 10rem;
     margin-bottom: 2rem;
 }
 
@@ -40,7 +40,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 5rem 1rem 5rem;
+  padding: 0 6rem 1rem 6rem;
 
   @media (max-width: $breakpoint) {
 
@@ -75,11 +75,10 @@
 
 //SERVICIOS
 .sectionServiciosActuales-Inicio {
-
+  margin-top: 10rem;
 }
 
 .h2Servicios {
-  padding-top: 10rem;
   margin-bottom: 2rem;
 }
 
@@ -129,10 +128,61 @@
   margin-top: 2rem;
 }
 
-.botonServicios {
-  border: none;
-  color: #3534BE;
-  font-size: 2rem;
+//NUESTRO ESPACIO
+
+.sectionNuestroEspacioInicio {
+  margin-top: 10rem;
+}
+
+.elementoBeneficiosInicio {
+  display: block;
+  margin: 0 auto;
+}
+
+.h2NuestroEspacio {
+  margin: 1.5rem 0 2rem 0;
+}
+
+//PREGUNTAS FRECUENTES
+.sectionPreguntasFrecuentesInicio {
+  margin-top: 10rem;
+  position: relative;
+}
+
+.h2NuestroEspacio {
+  margin-bottom: 2rem;
+}
+
+.contenedorPreguntasFrecuentes {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+
+  @media (max-width: $breakpoint) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contenedorImagenPreguntas {
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width: $breakpoint) {
+    display: none;
+  }
+}
+.imagenPreguntasFrecuentes {
+  margin-right: 6rem;
+}
+
+.contenedorDetallesPreguntas {
+  padding: 0 6rem;
+}
+
+.contenedorBotonPreguntas {
+  margin-top: 3rem;
 }
 
 
