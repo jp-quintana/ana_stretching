@@ -7,8 +7,7 @@ header {
 }
 
 .headerInicio {
-    // background-color: #E5EBF9;
-    background-color: lightblue;
+    background-color: #E5EBF9;
     height: auto;
 }
 
@@ -180,6 +179,7 @@ header {
     line-height: 2.7rem;
     text-align: center;
     padding-bottom: 5.3rem;
+    margin-bottom: 0rem;
 
     @media (max-width: $breakpoint) {
       margin-top: 5rem;

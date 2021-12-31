@@ -80,7 +80,7 @@ header {
   width: 100%; }
 
 .headerInicio {
-  background-color: lightblue;
+  background-color: #E5EBF9;
   height: auto; }
 
 .navbarInicio {
@@ -169,30 +169,46 @@ header {
   font-size: 2.3rem;
   line-height: 2.7rem;
   text-align: center;
-  padding-bottom: 5.3rem; }
+  padding-bottom: 5.3rem;
+  margin-bottom: 0rem; }
   @media (max-width: 768px) {
     .pClickAqui {
       margin-top: 5rem; } }
   .pClickAqui a {
     color: #3534BE; }
 
-.sectionBeneficios-Inicio {
-  position: relative;
-  margin-top: 10rem; }
-
 .elementoGraficoEsquina {
   position: absolute;
-  width: 46.853rem;
-  height: 51.902rem;
-  transform: rotate(128.39deg); }
+  width: 60rem;
+  height: 66rem;
+  z-index: -1; }
+  @media (max-width: 768px) {
+    .elementoGraficoEsquina {
+      width: 18rem;
+      height: 20rem; } }
 
 .elementoGrafico-arribaDerecha {
-  right: -13rem;
-  top: -35rem;
-  z-index: -1; }
+  right: -15rem;
+  top: -36rem; }
+  @media (max-width: 768px) {
+    .elementoGrafico-arribaDerecha {
+      right: -7rem;
+      top: -8rem; } }
+
+.elementoGraficoAbajoIzquierda {
+  left: -30rem;
+  bottom: -36rem; }
+  @media (max-width: 768px) {
+    .elementoGraficoAbajoIzquierda {
+      left: -7rem;
+      bottom: -8rem; } }
+
+.sectionBeneficios-Inicio {
+  position: relative;
+  overflow: hidden; }
 
 .h2Beneficios {
-  margin-bottom: 2rem; }
+  margin: 10rem 0 2rem 0; }
 
 .contenedorBeneficios-Inicio {
   margin-top: 8rem;
@@ -275,7 +291,8 @@ header {
   margin-top: 2rem; }
 
 .sectionNuestroEspacioInicio {
-  margin-top: 10rem; }
+  margin-top: 10rem;
+  position: relative; }
 
 .elementoBeneficiosInicio {
   display: block;
@@ -286,7 +303,12 @@ header {
 
 .sectionPreguntasFrecuentesInicio {
   margin-top: 10rem;
-  position: relative; }
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 20rem; }
+  @media (max-width: 768px) {
+    .sectionPreguntasFrecuentesInicio {
+      padding-bottom: 10rem; } }
 
 .h2NuestroEspacio {
   margin-bottom: 2rem; }
@@ -316,6 +338,10 @@ header {
 
 .contenedorBotonPreguntas {
   margin-top: 3rem; }
+
+.sectionTestimoniosInicio {
+  background-color: #3534BE;
+  padding-top: 5rem; }
 
 .img14 {
   width: 64rem;
