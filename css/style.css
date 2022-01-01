@@ -339,9 +339,33 @@ header {
 .contenedorBotonPreguntas {
   margin-top: 3rem; }
 
+.sectionTestimoniosInicio,
+.h2Testimonios,
+.h3Testimonios {
+  color: white; }
+
 .sectionTestimoniosInicio {
   background-color: #3534BE;
-  padding-top: 5rem; }
+  padding: 4rem 0 3rem 0;
+  color: white; }
+
+.h2Testimonios {
+  margin-bottom: 2rem; }
+
+.carouselTestimonios {
+  text-align: center;
+  margin: 5rem 0 4rem 0; }
+  @media (max-width: 768px) {
+    .carouselTestimonios {
+      margin: 7rem 0 6rem 0; } }
+
+.imagenTestimonios {
+  display: block;
+  margin: 0 auto; }
+
+.detalleImagenTestimonio {
+  text-align: center;
+  margin-top: 1rem; }
 
 .img14 {
   width: 64rem;
