@@ -361,46 +361,79 @@
 
 //CONTACTO
 .img14 {
-    width: 64rem;
-    height: 47.433rem;
+
 }
 
 .sectionContacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  @media (max-width: $breakpoint) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
 }
 
-.divsectionContacto {
+.contenedorImagenContacto {
+  @media (max-width: $breakpoint) {
+    display: none;
+  }
+}
+
+//ESTA IMAGEN TIENE QUE IR COMO UNA BG IMAGE CON COVER
+.imagenContacto {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.detalleContacto {
     background: #FFFFFF;
     border: 2px solid #111111;
-    width: 100%;
-    height: 47.433rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.h4sectionContacto {
+.h4Contacto {
     font-family: New York Extra Large;
     font-size: 2.5rem;
-    line-height: 3rem;
     color: #8BAAFC;
     margin-top: 7.208rem;
     margin-bottom: 5.42rem;
+
+    @media (max-width: $breakpoint) {
+      margin-top: 3.1rem;
+      margin-bottom: 3.5rem;;
+    }
 }
 
-.psectionContacto {
+.contenedorParrafosContacto {
+  margin-bottom: 5.42rem;
+
+  @media (max-width: $breakpoint) {
+    margin-bottom: 3.4rem;
+  }
+}
+
+.pContacto {
     font-weight: 300;
     font-size: 1.8rem;
-    line-height: 2.1rem;
+    line-height: 4rem;
     color: #4D4D4D;
-    margin-bottom: 3.889rem;
 }
 
-.iconsectionContacto {
-    width: 6.22rem;
-    height: 6.22rem;
-    margin-top: 1.531rem;
-    margin-bottom: 6.089rem;
+.contenedorIconosContacto {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6rem;
+
+  @media (max-width: $breakpoint) {
+    margin-bottom: 3.3rem;
+  }
+}
+
+.iconoContacto {
+    width: 6rem;
+    height: 6rem;
 }

@@ -450,44 +450,64 @@ header {
   flex-direction: column;
   align-items: flex-end; }
 
-.img14 {
-  width: 64rem;
-  height: 47.433rem; }
-
 .sectionContacto {
-  display: flex;
-  flex-direction: row; }
+  display: grid;
+  grid-template-columns: 50% 50%; }
+  @media (max-width: 768px) {
+    .sectionContacto {
+      display: flex;
+      flex-direction: column; } }
 
-.divsectionContacto {
+@media (max-width: 768px) {
+  .contenedorImagenContacto {
+    display: none; } }
+
+.imagenContacto {
+  min-width: 100%;
+  min-height: 100%; }
+
+.detalleContacto {
   background: #FFFFFF;
   border: 2px solid #111111;
-  width: 100%;
-  height: 47.433rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
-.h4sectionContacto {
+.h4Contacto {
   font-family: New York Extra Large;
   font-size: 2.5rem;
-  line-height: 3rem;
   color: #8BAAFC;
   margin-top: 7.208rem;
   margin-bottom: 5.42rem; }
+  @media (max-width: 768px) {
+    .h4Contacto {
+      margin-top: 3.1rem;
+      margin-bottom: 3.5rem; } }
 
-.psectionContacto {
+.contenedorParrafosContacto {
+  margin-bottom: 5.42rem; }
+  @media (max-width: 768px) {
+    .contenedorParrafosContacto {
+      margin-bottom: 3.4rem; } }
+
+.pContacto {
   font-weight: 300;
   font-size: 1.8rem;
-  line-height: 2.1rem;
-  color: #4D4D4D;
-  margin-bottom: 3.889rem; }
+  line-height: 4rem;
+  color: #4D4D4D; }
 
-.iconsectionContacto {
-  width: 6.22rem;
-  height: 6.22rem;
-  margin-top: 1.531rem;
-  margin-bottom: 6.089rem; }
+.contenedorIconosContacto {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6rem; }
+  @media (max-width: 768px) {
+    .contenedorIconosContacto {
+      margin-bottom: 3.3rem; } }
+
+.iconoContacto {
+  width: 6rem;
+  height: 6rem; }
 
 #sectionPrincipal-SobreMi {
   background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
