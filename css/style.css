@@ -203,6 +203,18 @@ header {
       left: -7rem;
       bottom: -8rem; } }
 
+.elementoGraficoAbajoDerecha {
+  right: -20rem;
+  bottom: -37rem; }
+  @media (max-width: 768px) {
+    .elementoGraficoAbajoDerecha {
+      right: -7rem;
+      bottom: -8rem; } }
+
+.elementoEspiral {
+  display: block;
+  margin: 0 auto; }
+
 .sectionBeneficios-Inicio {
   position: relative;
   overflow: hidden; }
@@ -294,10 +306,6 @@ header {
   margin-top: 10rem;
   position: relative; }
 
-.elementoBeneficiosInicio {
-  display: block;
-  margin: 0 auto; }
-
 .h2NuestroEspacio {
   margin: 1.5rem 0 2rem 0; }
 
@@ -366,6 +374,81 @@ header {
 .detalleImagenTestimonio {
   text-align: center;
   margin-top: 1rem; }
+
+.entradaMarginBlog {
+  margin-top: 7rem; }
+
+.sectionBlogInicio {
+  margin-top: 10rem;
+  padding-bottom: 20rem;
+  position: relative;
+  overflow: hidden; }
+  @media (max-width: 768px) {
+    .sectionBlogInicio {
+      padding-bottom: 13rem; } }
+
+.h2Blog {
+  margin: 1.5rem 0 2rem 0; }
+
+.contenidoBlog {
+  margin-top: 10rem; }
+
+.contenedorBlog {
+  max-width: 125;
+  width: 70%;
+  margin: 0 auto; }
+
+.entradaImparBlog {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 2rem; }
+  @media (max-width: 768px) {
+    .entradaImparBlog {
+      grid-template-areas: "imagen" "detalle";
+      grid-template-columns: 100%; } }
+
+@media (max-width: 768px) {
+  .detalleImparBlog {
+    grid-area: detalle; } }
+
+.h4Blog {
+  font-size: 2.3rem;
+  color: #3534BE;
+  margin-bottom: 2rem;
+  text-transform: uppercase; }
+
+.pBlog {
+  font-size: 1.8rem; }
+
+.contenedorBotonBlog {
+  margin-top: 2rem; }
+
+.contenedorImagenImparBlog {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .contenedorImagenImparBlog {
+      justify-content: center;
+      grid-area: imagen; } }
+
+.entradaParBlog {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 2rem; }
+  @media (max-width: 768px) {
+    .entradaParBlog {
+      display: flex;
+      flex-direction: column; } }
+
+.contenedorImagenParBlog {
+  display: flex;
+  align-items: center; }
+
+.detalleParBlog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
 
 .img14 {
   width: 64rem;
