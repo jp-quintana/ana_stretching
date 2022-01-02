@@ -394,7 +394,7 @@ header {
   margin-top: 10rem; }
 
 .contenedorBlog {
-  max-width: 125;
+  max-width: 125rem;
   width: 70%;
   margin: 0 auto; }
 
@@ -731,13 +731,89 @@ header {
   color: #4D4D4D;
   background-color: #E5E5E5; }
 
-footer {
-  background-color: #3534BE;
-  height: 26.634rem; }
+.footer {
+  background-color: #3534BE; }
+
+.contenedorContenidoFooter {
+  width: 96%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "logo nav nav" "detalle . redes" ". copy .";
+  grid-template-columns: 16% 70% 14%;
+  grid-template-rows: 40% 40% 20%; }
+
+.contenedorLogoFooter {
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .logoFooter {
   width: 12.044rem;
   height: 4.197rem; }
+
+.contenedorNavFooter {
+  grid-area: nav; }
+
+.navFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 12rem 0 12rem; }
+
+.textoNavFooter {
+  font-size: 1.8rem; }
+
+.contenedorDetalleFooter {
+  grid-area: detalle;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.pDetalleFooter {
+  font-size: 1.6rem; }
+
+.contenedorRedesFooter {
+  grid-area: redes;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; }
+
+.redesFooter {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem; }
+
+.itemRedesFooter {
+  display: flex;
+  gap: .5rem;
+  align-items: center; }
+
+.pRedesFooter {
+  margin-bottom: 0;
+  font-size: 1.8rem; }
+
+.sizeIconInstagram {
+  width: 2rem;
+  height: 2.1rem; }
+
+.sizeIconWhatsapp {
+  width: 2.6rem;
+  height: 2.6rem; }
+
+.sizeIconMail {
+  width: 2rem;
+  height: 2rem; }
+
+.contenedorCopyFooter {
+  grid-area: copy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; }
+
+.pCopyFooter {
+  margin-bottom: 0;
+  font-size: 1.8rem; }
 
 .colorLetrasFooter {
   color: #FAFAFA; }
@@ -785,20 +861,6 @@ footer {
     font-size: 1.6rem;
     line-height: 1.9rem;
 }
-
-.sizeIconInstagram {
-    width: 2rem;
-    height: 2.1rem;
-}
-
-.sizeIconWhatsapp {
-    width: 2.6rem;
-    height: 2.6rem;
-}
-
-.sizeIconMail {
-    width: 2rem;
-    height: 2rem;
 }*/
 #copyright {
   display: flex;
