@@ -71,15 +71,20 @@
     }
 
 }
+.detallesBenficiosInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .liBeneficios {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 6rem 1rem 6rem;
+  padding: 0 0 1rem 6rem;
 
   @media (max-width: $breakpoint) {
-
+    padding-right: 6rem;
   }
 }
 
@@ -135,9 +140,9 @@
 }
 
 //CENTRAR IMAGENES CON MEDIA QUERY CUANDO ENTRA EL FLEX WRAP
-.imagenesServicios-Inicio {
+.imagenesServiciosInicio {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
@@ -210,7 +215,7 @@
 
 .contenedorImagenPreguntas {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 
   @media (max-width: $breakpoint) {
     display: none;
@@ -218,7 +223,7 @@
 }
 
 .imagenPreguntasFrecuentes {
-  margin-right: 6rem;
+  padding-left: 6rem;
 }
 
 .contenedorDetallesPreguntas {

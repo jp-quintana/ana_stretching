@@ -236,11 +236,19 @@ header {
       display: flex;
       justify-content: center; } }
 
+.detallesBenficiosInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .liBeneficios {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 6rem 1rem 6rem; }
+  padding: 0 0 1rem 6rem; }
+  @media (max-width: 768px) {
+    .liBeneficios {
+      padding-right: 6rem; } }
 
 .iconBeneficios {
   width: 6rem;
@@ -279,15 +287,15 @@ header {
       display: flex;
       flex-direction: column; } }
 
-.imagenesServicios-Inicio {
+.imagenesServiciosInicio {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
   margin-bottom: 0; }
   @media (max-width: 768px) {
-    .imagenesServicios-Inicio {
+    .imagenesServiciosInicio {
       display: grid;
       grid-template-columns: 50% 50%;
       gap: 1rem;
@@ -338,13 +346,13 @@ header {
 
 .contenedorImagenPreguntas {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: center; }
   @media (max-width: 768px) {
     .contenedorImagenPreguntas {
       display: none; } }
 
 .imagenPreguntasFrecuentes {
-  margin-right: 6rem; }
+  padding-left: 6rem; }
 
 .contenedorDetallesPreguntas {
   padding: 0 6rem; }
@@ -737,51 +745,71 @@ header {
   background-color: #E5E5E5; }
 
 .footer {
-  background-color: #3534BE; }
+  background-color: #3534BE;
+  min-height: 100%; }
 
-.contenedorContenidoFooter {
+.navFooter {
   width: 96%;
   margin: 0 auto;
   display: grid;
-  grid-template-areas: "logo nav nav" "detalle . redes" ". copy .";
-  grid-template-columns: 16% 70% 14%;
+  grid-template-areas: "logo inicio sobre servicios blog preguntas contacto" "detalle . . . . . redes" ". copy copy copy copy copy .";
+  grid-template-columns: 16% repeat(6, 14%);
   grid-template-rows: 40% 40% 20%; }
+  @media (max-width: 768px) {
+    .navFooter {
+      grid-template-areas: "logo redes" "detalle redes" "inicio blog" "sobre preguntas" "servicios contacto" "copy copy";
+      grid-template-columns: 50% 50%; } }
+
+.contenedorLogoFooter,
+.inicioNavFooter,
+.sobreNavFooter,
+.serviciosNavFooter,
+.blogNavFooter,
+.preguntasNavFooter,
+.contactoNavFooter,
+.contenedorDetalleFooter,
+.contenedorRedesFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .contenedorLogoFooter {
-  grid-area: logo;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  grid-area: logo; }
 
 .logoFooter {
-  width: 12.044rem;
-  height: 4.197rem; }
+  width: 12rem;
+  height: 4rem; }
 
-.contenedorNavFooter {
-  grid-area: nav; }
+.inicioNavFooter {
+  grid-area: inicio; }
 
-.navFooter {
-  display: flex;
-  justify-content: space-between;
-  padding: 6rem 12rem 0 12rem; }
+.sobreNavFooter {
+  grid-area: sobre; }
+
+.serviciosNavFooter {
+  grid-area: servicios; }
+
+.blogNavFooter {
+  grid-area: blog; }
+
+.preguntasNavFooter {
+  grid-area: preguntas; }
+
+.contactoNavFooter {
+  grid-area: contacto; }
 
 .textoNavFooter {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  text-align: center; }
 
 .contenedorDetalleFooter {
-  grid-area: detalle;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  grid-area: detalle; }
 
 .pDetalleFooter {
   font-size: 1.6rem; }
 
 .contenedorRedesFooter {
-  grid-area: redes;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; }
+  grid-area: redes; }
 
 .redesFooter {
   display: flex;
@@ -817,6 +845,7 @@ header {
   gap: 1rem; }
 
 .pCopyFooter {
+  font-family: 'Inter';
   margin-bottom: 0;
   font-size: 1.8rem; }
 
@@ -829,61 +858,3 @@ header {
     font-weight: 500;
     /*font-size: 1.6rem;
         line-height: 1.9rem;*/ }
-
-#footerPrimeraParte {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between; }
-
-/*
-.div_pFooter {
-    width: 11.757rem;
-    height: 6.4rem;
-    margin-left: 1.931rem;
-}
-
-#pFooter {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-}*/
-#divRedesSociales {
-  /*margin: 4.405rem 2.084rem 0 0;*/
-  text-align: center;
-  /*
-    li {
-        margin-bottom: 1.5rem;
-
-        a {
-
-            img {
-                margin-right: 0.541rem;
-            }
-        }
-    }*/ }
-
-/*
-.redesSocialesFooter {
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-}
-}*/
-#copyright {
-  display: flex;
-  flex-flow: row nowrap;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  /*width: 23.528rem;
-    height: 5.4rem;
-    margin: 0 7.007rem 1.567rem 6.986rem;
-
-    img {
-        width: 2.4rem;
-        height: 2.4rem;
-    }*/ }
-
-#pCopyright {
-  font-family: 'Inter';
-  /*font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin: 1rem;*/ }
