@@ -76,12 +76,10 @@ img {
   font-size: 1.8rem; }
 
 header {
-  background-color: #FAFAFA;
-  width: 100%; }
+  background-color: #FAFAFA; }
 
 .headerInicio {
-  background-color: #E5EBF9;
-  height: auto; }
+  background-color: #E5EBF9; }
 
 .navbarInicio {
   padding: 3.6rem 2rem 1rem 2rem; }
@@ -90,9 +88,6 @@ header {
       padding: 3.6rem 0 1rem 0; } }
   .navbarInicioLista {
     gap: 3rem; }
-
-.headerPages {
-  height: 12.537rem; }
 
 .liServicios {
   margin-right: 18vw; }
@@ -107,41 +102,6 @@ header {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.1rem; }
-
-.nav-link-dropdown {
-  font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 2.1rem;
-  color: #242367;
-  font-family: Roboto; }
-
-.button {
-  border: none; }
-
-.dropdown-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 51.3rem;
-  height: 23.3rem; }
-
-.tituloDropdown {
-  margin-top: 1.705rem;
-  margin-bottom: 1.452rem;
-  font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 2.1rem;
-  color: #242367; }
-
-.dropdown-item {
-  font-weight: normal;
-  color: #242367;
-  margin-bottom: 2.8rem;
-  font-size: 1.8rem;
-  line-height: 2.1rem; }
-
-.dropdown-divider {
-  background-color: rgba(53, 52, 190, 0.3); }
 
 .navbar-toggler {
   border: none;
@@ -177,6 +137,36 @@ header {
       margin-top: 5rem; } }
   .pClickAqui a {
     color: #3534BE; }
+
+.headerPages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem; }
+  @media (max-width: 1200px) {
+    .headerPages {
+      justify-content: space-between; } }
+
+@media (max-width: 1200px) {
+  .contenedorLogoHeaderPages {
+    display: none; } }
+
+.logoHeaderPages {
+  padding: 0 4rem; }
+
+.contendorLogoResponsiveHeaderPages {
+  display: none; }
+  @media (max-width: 1200px) {
+    .contendorLogoResponsiveHeaderPages {
+      display: contents; } }
+
+.navbarPagesLista {
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem; }
+
+.navbarTogglerPages {
+  margin-right: 0 !important; }
 
 .elementoGraficoEsquina {
   position: absolute;

@@ -13,8 +13,63 @@
     <title>Sobre mi - Stretching Ana</title>
 </head>
 <body>
-    <header class="container-fluid headerPages">
-        <!--<a href="../index.html" ><img src="../assets/inicio/logo.svg" alt="logo" class="logo1-header"></a>-->
+    <header class="headerPages">
+        <div class="contendorLogoResponsiveHeaderPages">
+          <a href="../index.html" ><img src="../assets/inicio/logo.svg" alt="logo" class="logo1-header"></a>
+        </div>
+
+        <nav class="navbarPages navbar navbar-expand-xl navbar-light p-auto">
+                <button class="navbarTogglerPages navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbarPagesLista navbar-nav mx-auto menu2 menuNavPages" id="menuNav">
+                        <li class="nav-item">
+                            <a class="nav-link"  id="activo" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobreMi.html">Sobre mi</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <!-- <ul id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                <div>
+                                    <li class="tituloDropdown">Presencial / Online</li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="servicios_pilates.html">Pilates</a></li>
+                                    <li><a class="dropdown-item" href="servicios_stretching.html">Stretching</a></li>
+                                    <li><a class="dropdown-item" href="servicios_modernJazz.html">Modern Jazz</a></li>
+                                </div>
+                                <div>
+                                    <li class="tituloDropdown">Online</li>
+                                    <hr>
+                                    <li><a class="dropdown-item" href="servicios_cursoModernJazz.html">Curso con certificación <br> Modern Jazz</a></li>
+                                </div>
+                            </ul> -->
+                        </li>
+                        <li class="contenedorLogoHeaderPages">
+                          <img class="logoHeaderPages"src="../assets/inicio/logo.svg" alt="logo" class="logo2-header">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="preguntasFrecuentes.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html#contacto-blog">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+    </header>
+
+
+    <!-- <header class="">
+        <a href="../index.html" ><img src="../assets/inicio/logo.svg" alt="logo" class="logo1-header"></a>
         <div class="row">
             <nav class="navbar navbar-expand-xl navbar-light p-auto">
                 <div class="container-fluid" id="header">
@@ -63,7 +118,8 @@
                 </div>
             </nav>
         </div>
-    </header>
+    </header> -->
+
     <main>
         <section id="sectionPrincipal-SobreMi">
             <h1 class="h1sectionPrincipal" id="h1sectionPrincipal-SobreMi">¿Querés conocer Ana Studio y<br>obtener tu primer clase GRATIS?</h1>
@@ -76,7 +132,7 @@
                 <img src="../assets/Sobre_mi/IMG 13.png" alt="">
                 <p class="p-style" id="psectionPresentacion-SobreMi"><span class="span-style">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc
                     In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc.</p>
-            </div>      
+            </div>
         </section>
         <section id="sectionTrayectoria-SobreMi">
             <h2 id="h2sectionTrayectoria-SobreMi">Trayectoria profesional</h2>
@@ -89,62 +145,88 @@
                 </div>
             </div>
         </section>
-        <section class="sectionContacto" id="contacto-sobreMi">
-            <img src="../assets/Sobre_mi/IMG 14.png" alt="" class="img14">
-            <div class="divsectionContacto">
-                <h4 class="h4sectionContacto">Datos de contacto</h4>
-                <p class="psectionContacto">Lorem ipsum dolor</p>
-                <p class="psectionContacto">Lorem ipsum dolor</p>
-                <p class="psectionContacto">Lorem ipsum dolor</p>
-                <div>
-                    <a href=""><img src="../assets/inicio/logoWhatsapp.png" alt="" class="iconsectionContacto"></a>
-                    <a href=""><img src="../assets/inicio/logoInstagram.png" alt="" class="iconsectionContacto"></a>
-                    <a href=""><img src="../assets/inicio/logoMail.png" alt="" class="iconsectionContacto"></a>
+
+        <section class="sectionContacto" id="contacto">
+            <div class="contenedorImagenContacto">
+                <img class="imagenContacto" src="../assets/Sobre_mi/IMG 14.png" alt="" class="img14">
+            </div>
+            <div class="detalleContacto">
+                <h4 class="h4Contacto">Datos de contacto</h4>
+                <div class="contenedorParrafosContacto">
+                    <p class="pContacto">Lorem ipsum dolor</p>
+                    <p class="pContacto">Lorem ipsum dolor</p>
+                    <p class="pContacto">Lorem ipsum dolor</p>
+                </div>
+
+                <div class="contenedorIconosContacto">
+                    <a href=""><img src="../assets/inicio/logoWhatsapp.png" alt="" class="iconoContacto"></a>
+                    <a href=""><img src="../assets/inicio/logoInstagram.png" alt="" class="iconoContacto"></a>
+                    <a href=""><img src="../assets/inicio/logoMail.png" alt="" class="iconoContacto"></a>
                 </div>
             </div>
         </section>
+
         <div class="divFinSections">
             <img src="../assets/inicio/Elemento gráfico.svg" alt="" class="espiralCentrado">
         </div>
     </main>
-    <footer>
-        <div>
-            <img src="../assets/inicio/logo.svg" alt="logo">
-            <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="sobreMi.html">Sobre mi</a>
-                </li>
-                <!--PREGUNTAR SI ACÁ VA TAMBIEN UN DROPDOWN-->
-                <li>
-                    <a href="#">Servicios</a>
-                </li>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="preguntasFrecuentes.html">Preguntas frecuentes</a>
-                </li>
-                <li>
-                    <a href="#">Contacto</a>
-                    <ul>
-                        <li><a href="#" target="_blank"><img src="../assets/inicio/akar-icons_instagram-fill.svg" alt="instagram">Lorem ipsum </a></li>
-                        <li><a href="#" target="_blank"><img src="../assets/inicio/icon-whatsapp.svg" alt="whatsapp">Lorem ipsum </a></li>
-                        <li><a href="#" target="_blank"><img src="../assets/inicio/icon-mail.svg" alt="mail">Lorem ipsum </a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>    
-        <div>
-            <img src="" alt=""> <!--NO ENCUENTRO LA IMAGEN DEL LOGO DEL COPYRIGHT-->
-            <p>2021 Ana Studio () Todos los derechos reservados</p>
-        </div>
+
+    <footer class="footer">
+          <nav class="navFooter">
+            <div class="contenedorLogoFooter">
+              <img src="../assets/inicio/logoFooter.svg" class="logoFooter" alt="logo">
+            </div>
+            <div class="inicioNavFooter">
+              <a href="index.html" class="textoNavFooter colorLetrasFooter">Inicio</a>
+            </div>
+            <div class="sobreNavFooter">
+              <a href="pages/sobreMi.html" class="textoNavFooter colorLetrasFooter">Sobre mi</a>
+            </div>
+            <div class="serviciosNavFooter">
+              <a href="#" class="textoNavFooter colorLetrasFooter">Servicios</a>
+            </div>
+            <div class="blogNavFooter">
+              <a href="pages/blog.html" class="textoNavFooter colorLetrasFooter">Blog</a>
+            </div>
+            <div class="preguntasNavFooter">
+              <a href="pages/preguntasFrecuentes.html" class="textoNavFooter colorLetrasFooter">Preguntas frecuentes</a>
+            </div>
+            <div class="contactoNavFooter">
+              <a href="#" class="textoNavFooter colorLetrasFooter">Contacto</a>
+            </div>
+            <div class="contenedorDetalleFooter">
+                <p class="pDetalleFooter colorLetrasFooter">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+
+            </div>
+            <div class="contenedorRedesFooter">
+                <ul class="redesFooter">
+                    <li>
+                      <a href="#" target="_blank" class="itemRedesFooter colorLetrasFooter">
+                        <img src="../assets/inicio/akar-icons_instagram-fill.svg" alt="instagram" class="sizeIconInstagram">
+                        <p class="pRedesFooter" >Lorem ipsum</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="itemRedesFooter colorLetrasFooter">
+                        <img src="../assets/inicio/icon-whatsapp.svg" alt="whatsapp" class="sizeIconWhatsapp">
+                        <p class="pRedesFooter" >Lorem ipsum</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="itemRedesFooter colorLetrasFooter">
+                        <img src="../assets/inicio/icon-mail.svg" alt="mail" class="sizeIconMail">
+                        <p class="pRedesFooter" >Lorem ipsum</p>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contenedorCopyFooter">
+              <img src="../assets/inicio/iconoir_copyright.svg" alt="Copyright">
+              <p class="pCopyFooter colorLetrasFooter">2021 Ana Studio () Todos los derechos reservados</p>
+            </div>
+          </nav>
     </footer>
+
     <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
