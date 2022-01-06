@@ -84,8 +84,6 @@ header {
   height: auto; }
 
 .navbarInicio {
-  padding-top: 3.6rem;
-  padding-bottom: 1rem;
   padding: 3.6rem 2rem 1rem 2rem; }
   @media (max-width: 768px) {
     .navbarInicio {
@@ -147,7 +145,7 @@ header {
 
 .navbar-toggler {
   border: none;
-  padding-right: 2.3rem; }
+  margin-right: 2.3rem; }
   .navbar-toggler .navbar-toggler-icon {
     width: 4rem;
     height: 4rem; }
@@ -745,8 +743,7 @@ header {
   background-color: #E5E5E5; }
 
 .footer {
-  background-color: #3534BE;
-  min-height: 100%; }
+  background-color: #3534BE; }
 
 .navFooter {
   width: 96%;
@@ -758,7 +755,8 @@ header {
   @media (max-width: 768px) {
     .navFooter {
       grid-template-areas: "logo redes" "detalle redes" "inicio blog" "sobre preguntas" "servicios contacto" "copy copy";
-      grid-template-columns: 50% 50%; } }
+      grid-template-columns: 50% 50%;
+      grid-template-rows: repeat(2, 20%) repeat(3, 14%) 18%; } }
 
 .contenedorLogoFooter,
 .inicioNavFooter,
@@ -772,6 +770,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.contenedorLogoFooter,
+.inicioNavFooter,
+.sobreNavFooter,
+.serviciosNavFooter,
+.blogNavFooter,
+.preguntasNavFooter,
+.contactoNavFooter {
+  padding: 4rem 0 1.5rem 0; }
 
 .contenedorLogoFooter {
   grid-area: logo; }
@@ -842,12 +849,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem; }
+  gap: 1rem;
+  margin-bottom: 2rem; }
+  @media (max-width: 768px) {
+    .contenedorCopyFooter {
+      margin-top: 3rem; } }
 
 .pCopyFooter {
   font-family: 'Inter';
   margin-bottom: 0;
   font-size: 1.8rem; }
+  @media (max-width: 768px) {
+    .pCopyFooter {
+      font-size: 1.4rem; } }
 
 .colorLetrasFooter {
   color: #FAFAFA; }
