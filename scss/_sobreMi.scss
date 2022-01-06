@@ -12,19 +12,6 @@
 
 }
 
-.h1PrincipalSobreMi {
-    font-size: 5rem;
-    line-height: 5.9rem;
-    text-align: center;
-    color: #FAFAFA;
-    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-    margin-bottom: 5.408rem;
-}
-
-.sectionProfesoraSobreMi {
-
-}
-
 .h2ProfesoraSobreMi {
     margin-top: 2.1rem;
     margin-bottom: 7.991rem;
@@ -48,7 +35,8 @@
   padding-left: 6rem;
 
   @media(max-width: $breakpoint) {
-    padding-left: 0;
+    padding: 0 0 2rem 0;
+
   }
 }
 
@@ -59,6 +47,10 @@
 .h2TrayectoriaSobreMi {
     margin-top: 17.606rem;
     margin-bottom: 2.05rem;
+
+    @media (max-width: $breakpoint) {
+      margin-top: 8rem;
+    }
 }
 
 .contenedorLineaTrayectoriaSobreMi {

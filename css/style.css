@@ -536,14 +536,6 @@ header {
   height: 70rem;
   margin-bottom: 7.991rem; }
 
-.h1PrincipalSobreMi {
-  font-size: 5rem;
-  line-height: 5.9rem;
-  text-align: center;
-  color: #FAFAFA;
-  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-  margin-bottom: 5.408rem; }
-
 .h2ProfesoraSobreMi {
   margin-top: 2.1rem;
   margin-bottom: 7.991rem; }
@@ -563,7 +555,7 @@ header {
   padding-left: 6rem; }
   @media (max-width: 768px) {
     .contenedorImagenPresenctacionSobreMi {
-      padding-left: 0; } }
+      padding: 0 0 2rem 0; } }
 
 .pPresentacionSobreMi {
   padding: 0 6rem; }
@@ -571,6 +563,9 @@ header {
 .h2TrayectoriaSobreMi {
   margin-top: 17.606rem;
   margin-bottom: 2.05rem; }
+  @media (max-width: 768px) {
+    .h2TrayectoriaSobreMi {
+      margin-top: 8rem; } }
 
 .contenedorLineaTrayectoriaSobreMi {
   width: 80%;
@@ -682,7 +677,7 @@ header {
   margin-top: 2.05rem;
   margin-bottom: 11.977rem; }
 
-#sectionPrincipal-Blog {
+.sectionPrincipalBlog {
   background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/blog/pexels-elina-fairytale-3823117.png);
   background-position: bottom;
   background-size: cover;
@@ -694,10 +689,7 @@ header {
   align-items: center;
   margin-bottom: 7.991rem; }
 
-#h1-sectionPrincipal-Blog {
-  margin-top: 20.488rem; }
-
-#h2-sectionPrincipal-Blog {
+.h2SectionPrincipalBlog {
   font-size: 3rem;
   line-height: 3.5rem;
   color: #FAFAFA;
@@ -705,12 +697,51 @@ header {
   margin-top: 2.386rem;
   margin-bottom: 4.065rem; }
 
-#boton-sectionPrincipal-Blog {
-  margin-bottom: 11.623rem; }
+.sectionArticulosBlog {
+  padding-bottom: 20rem; }
+  @media (max-width: 768px) {
+    .sectionArticulosBlog {
+      padding-bottom: 15rem; } }
 
-#h2-sectionArticulos-Blog {
+.h2SectionArticulosBlog {
   margin-top: 2.05rem;
   margin-bottom: 7.751rem; }
+
+.contenedorEntradasBlogPages {
+  max-width: 90rem;
+  width: 80%;
+  margin: 0 auto; }
+
+.contenedorContenidoBlogPages {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 3rem;
+  border-top: 1px solid grey;
+  padding: 2rem 0; }
+  @media (max-width: 768px) {
+    .contenedorContenidoBlogPages {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+
+.contenedorImagenBlogPages {
+  display: flex;
+  align-items: center; }
+
+.contenedorDetalleEntadaBlogPages {
+  display: flex;
+  flex-direction: column; }
+  .contenedorDetalleEntadaBlogPages h4 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem; }
+  .contenedorDetalleEntadaBlogPages p {
+    font-size: 1.8rem;
+    font-weight: 300; }
+
+.contenedorBotonBlogPages {
+  justify-self: end; }
 
 .img-sectionPrincipal-Articulo {
   width: 128.526rem;
