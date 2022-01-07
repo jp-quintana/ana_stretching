@@ -1,4 +1,4 @@
-#sectionPrincipal-Blog {
+.sectionPrincipalBlog {
     background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/blog/pexels-elina-fairytale-3823117.png);
     background-position: bottom;
     background-size: cover;
@@ -11,11 +11,7 @@
     margin-bottom: 7.991rem;
 }
 
-#h1-sectionPrincipal-Blog {
-    margin-top: 20.488rem;
-}
-
-#h2-sectionPrincipal-Blog {
+.h2SectionPrincipalBlog {
     font-size: 3rem;
     line-height: 3.5rem;
     color: #FAFAFA;
@@ -24,11 +20,63 @@
     margin-bottom: 4.065rem;
 }
 
-#boton-sectionPrincipal-Blog {
-    margin-bottom: 11.623rem;
+.sectionArticulosBlog {
+  padding-bottom: 20rem;
+
+  @media (max-width: $breakpoint) {
+    padding-bottom: 15rem;
+
+  }
 }
 
-#h2-sectionArticulos-Blog {
+.h2SectionArticulosBlog {
     margin-top: 2.05rem;
     margin-bottom: 7.751rem;
+}
+
+.contenedorEntradasBlogPages {
+  max-width: 90rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contenedorContenidoBlogPages {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 3rem;
+  border-top: 1px solid grey;
+  padding: 2rem 0;
+
+  @media (max-width: $breakpoint) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contenedorImagenBlogPages {
+  display: flex;
+  align-items: center;
+}
+
+.contenedorDetalleEntadaBlogPages {
+  display: flex;
+  flex-direction: column;
+
+  & h4 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+  }
+
+  & p {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+
+}
+
+.contenedorBotonBlogPages {
+  justify-self: end;
 }

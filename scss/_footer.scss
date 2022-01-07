@@ -1,12 +1,160 @@
-footer {
+// TODO: terminar de ver ultimos detalles responsive
+.footer {
     background-color: #3534BE;
-    height: 26.634rem;
+}
+
+.navFooter {
+  width: 96%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "logo inicio sobre servicios blog preguntas contacto"
+                       "detalle . . . . . redes"
+                       ". copy copy copy copy copy .";
+  grid-template-columns: 16% repeat(6, 14%);
+  grid-template-rows: 40% 40% 20%;
+
+  @media (max-width: $breakpoint) {
+    grid-template-areas: "logo redes"
+                         "detalle redes"
+                         "inicio blog"
+                         "sobre preguntas"
+                         "servicios contacto"
+                         "copy copy";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, 20%) repeat(3, 14%) 18%;
+  }
+}
+
+.contenedorLogoFooter,
+.inicioNavFooter,
+.sobreNavFooter,
+.serviciosNavFooter,
+.blogNavFooter,
+.preguntasNavFooter,
+.contactoNavFooter,
+.contenedorDetalleFooter,
+.contenedorRedesFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorLogoFooter,
+.inicioNavFooter,
+.sobreNavFooter,
+.serviciosNavFooter,
+.blogNavFooter,
+.preguntasNavFooter,
+.contactoNavFooter {
+  padding: 4rem 0 1.5rem 0;
+}
+
+.contenedorLogoFooter {
+  grid-area: logo;
 }
 
 .logoFooter {
-    width: 12.044rem;
-    height: 4.197rem;
-    //margin: 2.604rem 0 2.256rem 2.063rem;
+    width: 12rem;
+    height: 4rem;
+}
+
+
+.inicioNavFooter {
+  grid-area: inicio;
+}
+
+.sobreNavFooter {
+  grid-area: sobre;
+}
+
+.serviciosNavFooter {
+  grid-area: servicios;
+}
+
+.blogNavFooter {
+  grid-area: blog;
+}
+
+.preguntasNavFooter {
+  grid-area: preguntas;
+}
+
+.contactoNavFooter {
+  grid-area: contacto;
+}
+
+.textoNavFooter {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.contenedorDetalleFooter {
+  grid-area: detalle;
+}
+
+// TODO: ver como centrar este parrafo en modo celu
+.pDetalleFooter {
+  font-size: 1.6rem;
+}
+
+.contenedorRedesFooter {
+  grid-area: redes;
+}
+
+.redesFooter {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.itemRedesFooter {
+  display: flex;
+  gap: .5rem;
+  align-items: center
+}
+
+.pRedesFooter {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+
+.sizeIconInstagram {
+    width: 2rem;
+    height: 2.1rem;
+}
+
+.sizeIconWhatsapp {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.sizeIconMail {
+    width: 2rem;
+    height: 2rem;
+}
+
+.contenedorCopyFooter {
+  grid-area: copy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: $breakpoint) {
+    margin-top: 3rem;
+  }
+}
+
+.pCopyFooter {
+  font-family: 'Inter';
+  margin-bottom: 0;
+  font-size: 1.8rem;
+
+  @media (max-width: $breakpoint) {
+    font-size: 1.4rem;
+  }
+
 }
 
 .colorLetrasFooter {
@@ -24,78 +172,124 @@ footer {
     }
 }
 
-#footerPrimeraParte {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-}
-/*
-.div_pFooter {
-    width: 11.757rem;
-    height: 6.4rem;
-    margin-left: 1.931rem;
-}
-
-#pFooter {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-}*/
-
-#divRedesSociales {
-    /*margin: 4.405rem 2.084rem 0 0;*/
-    text-align: center;
-/*
-    li {
-        margin-bottom: 1.5rem;
-
-        a {
-
-            img {
-                margin-right: 0.541rem;
-            }
-        }
-    }*/
-}
-/*
-.redesSocialesFooter {
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-}
-
-.sizeIconInstagram {
-    width: 2rem;
-    height: 2.1rem;
-}
-
-.sizeIconWhatsapp {
-    width: 2.6rem;
-    height: 2.6rem;
-}
-
-.sizeIconMail {
-    width: 2rem;
-    height: 2rem;
-}*/
-
-#copyright {
-    display: flex;
-    flex-flow: row nowrap;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    /*width: 23.528rem;
-    height: 5.4rem;
-    margin: 0 7.007rem 1.567rem 6.986rem;
-
-    img {
-        width: 2.4rem;
-        height: 2.4rem;
-    }*/
-}
-
-#pCopyright {
-    font-family: 'Inter';
-    /*font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin: 1rem;*/
-}
+// .footer {
+//     background-color: #3534BE;
+//     // height: 26.634rem;
+// }
+//
+// .contenedorContenidoFooter {
+//   width: 96%;
+//   margin: 0 auto;
+//   display: grid;
+//   grid-template-areas: "logo nav nav"
+//                        "detalle . redes"
+//                        ". copy .";
+//   grid-template-columns: 16% 70% 14%;
+//   grid-template-rows: 40% 40% 20%;
+// }
+//
+// .contenedorLogoFooter {
+//   grid-area: logo;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+//
+// .logoFooter {
+//     width: 12.044rem;
+//     height: 4.197rem;
+//     //margin: 2.604rem 0 2.256rem 2.063rem;
+// }
+//
+// .contenedorNavFooter {
+//   grid-area: nav;
+// }
+//
+// .navFooter {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 6rem 12rem 0 12rem;
+// }
+//
+// .textoNavFooter {
+//   font-size: 1.8rem;
+// }
+//
+// .contenedorDetalleFooter {
+//   grid-area: detalle;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+//
+// .pDetalleFooter {
+//   font-size: 1.6rem;
+// }
+//
+// .contenedorRedesFooter {
+//   grid-area: redes;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start;
+// }
+//
+// .redesFooter {
+//   display: flex;
+//   flex-direction: column;
+//   gap: .8rem;
+// }
+//
+// .itemRedesFooter {
+//   display: flex;
+//   gap: .5rem;
+//   align-items: center
+// }
+//
+// .pRedesFooter {
+//   margin-bottom: 0;
+//   font-size: 1.8rem;
+// }
+//
+// .sizeIconInstagram {
+//     width: 2rem;
+//     height: 2.1rem;
+// }
+//
+// .sizeIconWhatsapp {
+//     width: 2.6rem;
+//     height: 2.6rem;
+// }
+//
+// .sizeIconMail {
+//     width: 2rem;
+//     height: 2rem;
+// }
+//
+// .contenedorCopyFooter {
+//   grid-area: copy;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 1rem;
+// }
+//
+// .pCopyFooter {
+//   font-family: 'Inter';
+//   margin-bottom: 0;
+//   font-size: 1.8rem;
+// }
+//
+// .colorLetrasFooter {
+//     color: #FAFAFA;
+// }
+//
+//
+// .liFooter {
+//     list-style-type: none;
+//
+//     a {
+//         font-weight: 500;
+//         /*font-size: 1.6rem;
+//         line-height: 1.9rem;*/
+//     }
+// }

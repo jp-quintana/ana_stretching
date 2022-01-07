@@ -12,72 +12,68 @@
     <title>Stretching Ana</title>
 </head>
 <body>
-    <header class="container-fluid" id="headerInicio">
-        <div class="row">
-            <nav class="navbar navbar-expand-xl p-auto">
-                <div class="container-fluid" id="header">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto menu2 manuNavInicio" id="menuNav">
-                            <li class="nav-item">
-                                <a class="nav-link active"  id="activo" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/sobreMi.html">Sobre mi</a>
-                            </li>
-                            <li class="nav-item dropdown" id="liServicios">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Servicios
-                                </a>
-                                <ul id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                                    <div>
-                                        <li class="tituloDropdown">Presencial / Online</li>
-                                        <hr>
-                                        <li><a class="dropdown-item" href="pages/servicios_pilates.html">Pilates</a></li>
-                                        <li><a class="dropdown-item" href="pages/servicios_stretching.html">Stretching</a></li>
-                                        <li><a class="dropdown-item" href="pages/servicios_modernJazz.html">Modern Jazz</a></li>
-                                    </div>
-                                    <div>
-                                        <li class="tituloDropdown">Online</li>
-                                        <hr>
-                                        <li><a class="dropdown-item" href="pages/servicios_cursoModernJazz.html">Curso con certificación <br> Modern Jazz</a></li>
-                                    </div>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/blog.html">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
-                            </li>
-                            <!-- linkear a el fin de pagina donde estan los datos de contacto-->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <img src="assets/inicio/Logo tamaño grande.png" class="imgPrincipalInicio" alt="logo">
-            <p class="pPSD">Pilates - Stratching - Danza</p>
-            <p class="pClickAqui">Consigue tu primer clase de prueba gratuita <a href="#"><u>Click Aquí</u></a></p>
-        </div>
-    </header>
-    <main>
-        <section id="sectionBeneficios-Inicio">
-            <!--Posicionar bien la imagen-->
-            <div class="divElementoGraficoEsquina">
-                <div class="div-divElementoGraficoEsquina div-divElementoGraficoEsquina-derecha">
-                    <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGrafico-arribaDerecha">
-                </div>
+
+  <!-- TODO: linkear a el fin de pagina donde estan los datos de contacto -->
+    <header class="headerInicio">
+        <nav class="navbarInicio navbar navbar-expand-md navbar-light flex-row-reverse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+              <ul class="navbarInicioLista navbar-nav mx-auto text-center menu2" id="menuNav">
+                  <li class="nav-item">
+                      <a class="nav-link active"  id="activo" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/sobreMi.html">Sobre mi</a>
+                  </li>
+                  <li class="nav-item dropdown liServicios">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                      </a>
+                      <!-- <ul id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                          <div>
+                              <li class="tituloDropdown">Presencial / Online</li>
+                              <hr>
+                              <li><a class="dropdown-item" href="pages/servicios_pilates.html">Pilates</a></li>
+                              <li><a class="dropdown-item" href="pages/servicios_stretching.html">Stretching</a></li>
+                              <li><a class="dropdown-item" href="pages/servicios_modernJazz.html">Modern Jazz</a></li>
+                          </div>
+                          <div>
+                              <li class="tituloDropdown">Online</li>
+                              <hr>
+                              <li><a class="dropdown-item" href="pages/servicios_cursoModernJazz.html">Curso con certificación <br> Modern Jazz</a></li>
+                          </div>
+                      </ul> -->
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/preguntasFrecuentes.html">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+              </ul>
             </div>
-            <h2 id="h2Beneficios">Beneficios</h2>
-            <h3 id="h3Beneficios">Mantiene una vida sana</h3>
-            <div id="divsectionBeneficios-Inicio">
-                <div>
-                    <ul id="ulBeneficios">
+        </nav>
+
+        <img src="assets/inicio/Logo tamaño grande.png" class="imgPrincipalInicio" alt="logo">
+
+        <p class="pPSD">Pilates - Stretching - Danza</p>
+        <p class="pClickAqui">Consigue tu primer clase de prueba gratuita <a href="#"><u>Click Aquí</u></a></p>
+    </header>
+
+
+    <main>
+        <section class="sectionBeneficiosInicio">
+            <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGrafico-arribaDerecha">
+            <h2 class="h2Beneficios">Beneficios</h2>
+            <h3 class="h3Beneficios">Mantiene una vida sana</h3>
+            <div class="contenedorBeneficiosInicio">
+                <div class="detallesBenficiosInicio">
+                    <ul class="ulBeneficios">
                         <li class="liBeneficios">
                             <img src="assets/inicio/meditando.svg" alt="icono persona meditando" class="iconBeneficios">
                             <p class="pBeneficios">Aumento de la resistencia física y mental.</p>
@@ -96,207 +92,263 @@
                         </li>
                     </ul>
                 </div>
-            
-                <img src="assets/inicio/IMG 1.png" alt="" id="img1-Index">
-                <img src="assets/inicio/IMG 2.png" alt="" id="img2-Index">
+
+                <div class="imagenesBeneficios-Inicio">
+                  <img src="assets/inicio/IMG 1.png" alt="">
+                  <img class="imagenBeneficio-Inicio2" src="assets/inicio/IMG 2.png" alt="">
+                </div>
+
             </div>
         </section>
-        <section id="sectionServiciosActuales-Inicio">
-            <h2>Servicios actuales</h2>
+
+        <section class="sectionServiciosActualesInicio">
+            <h2 class="h2Servicios">Servicios actuales</h2>
             <h3>Presencial y online</h3>
-            <div>
-                <img src="assets/inicio/IMG 3.png" alt=""> 
-                <img src="assets/inicio/IMG 4.png" alt="">
-                <p>
-                    <span>Pilates</span> es una disciplina que se basa en el desarrollo de los músculos internos que ayuda a mantener el equilibrio corporal y que da firmeza y fortalece la columna vertebral.
-                    <br>
-                    <span>Stretching</span> consiste en una rutina de diferentes ejercicios derivados del yoga, de la gimnasia tradicional y de la danza clásica.
-                    <br>
-                    <span>Modern Jazz</span> se constituye a partir de la fusión de elementos de la danza clásica, contemporánea, el estilo jazz y la danza moderna.
-                    <br>
-                    <span>Curso con certificación</span> es una formación online de Modern Jazz con certificación digital, donde se fusionan distintas danzas.
-                </p>
-                <button>¡Empezar YA!</button> <!--dar formato-->
+            <div class="contenedorServiciosInicio">
+                <div class="imagenesServiciosInicio">
+                    <img src="assets/inicio/IMG 3.png" alt="">
+                    <img src="assets/inicio/IMG 4.png" alt="">
+                </div>
+                <div class="detallesServicios-Inicio">
+                    <p class="pServicios">
+                        <span class="span-style">Pilates</span> es una disciplina que se basa en el desarrollo de los músculos internos que ayuda a mantener el equilibrio corporal y que da firmeza y fortalece la columna vertebral.
+                    </p>
+                    <p class="pServicios">
+                        <span class="span-style">Stretching</span> consiste en una rutina de diferentes ejercicios derivados del yoga, de la gimnasia tradicional y de la danza clásica.
+                    </p>
+                    <p class="pServicios">
+                        <span class="span-style">Modern Jazz</span> se constituye a partir de la fusión de elementos de la danza clásica, contemporánea, el estilo jazz y la danza moderna.
+                    </p>
+                    <p class="pServicios">
+                        <span class="span-style">Curso con certificación</span> es una formación online de Modern Jazz con certificación digital, donde se fusionan distintas danzas.
+                    </p>
+                    <div class="contenedorBotonServicios">
+                      <button class="botonServicios botonAzul">¡Empezar YA!</button>
+                    </div>
+
+                </div>
+
             </div>
         </section>
-        <section id="sectionNuestroEspacio-Inicio">
-            <img src="assets/inicio/Elemento gráfico.svg" alt="espiral">
-            <h2>Nuestro espacio</h2>
+
+        <section class="sectionNuestroEspacioInicio">
+            <img class="elementoEspiral" src="assets/inicio/Elemento gráfico.svg" alt="espiral">
+            <h2 class="h2NuestroEspacio">Nuestro espacio</h2>
             <h3>Galeria de fotos</h3>
-            <!--Hacer carrousel con las fotos-->
         </section>
-        <section id="sectionPreguntasFrecuentes-Inicio">
-            <h2>Preguntas frecuentes</h2>
+
+        <section class="sectionPreguntasFrecuentesInicio">
+            <h2 class="h2NuestroEspacio">Preguntas frecuentes</h2>
             <h3>Información adicional</h3>
-            <div>
-                <img src="assets/inicio/IMG 9.png" alt="">
-                <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOneInicio">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneInicio" aria-expanded="false" aria-controls="flush-collapseOneInicio">
-                                1. ¿Dónde consulto los precios y horarios?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOneInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingOneInicio" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque corporis quidem reiciendis numquam aut, quos soluta, ab sequi minima unde? Fugiat, delectus error facere fuga officiis minus necessitatibus sequi?
+            <div class="contenedorPreguntasFrecuentes">
+                <div src="" alt="" class="contenedorImagenPreguntas">
+                  <img class="imagenPreguntasFrecuentes"src="assets/inicio/IMG 9.png" alt="">
+                </div>
+                <div class="contenedorDetallesPreguntas">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="acordionFondoTransparente accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOneInicio">
+                                <button class="acordionFondoTransparente accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneInicio" aria-expanded="false" aria-controls="flush-collapseOneInicio">
+                                    <p class="acordionParrafo">1. ¿Dónde consulto los precios y horarios?</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOneInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingOneInicio" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio itaque corporis quidem reiciendis numquam aut, quos soluta, ab sequi minima unde? Fugiat, delectus error facere fuga officiis minus necessitatibus sequi?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="acordionFondoTransparente accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwoInicio">
+                                <button class="acordionFondoTransparente accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoInicio" aria-expanded="false" aria-controls="flush-collapseTwoInicio">
+                                    <p class="acordionParrafo">2. ¿Cómo reservo una clase?</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwoInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoInicio" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et cum eligendi rem ipsa recusandae doloribus nisi iusto velit vel laboriosam quibusdam sequi itaque doloremque quasi, voluptatem nihil iste rerum?
+                                </div>
+                            </div>
+                        </div>
+                        <div class="acordionFondoTransparente accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThreeInicio">
+                                <button class="acordionFondoTransparente accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeInicio" aria-expanded="false" aria-controls="flush-collapseThreeInicio">
+                                    <p class="acordionParrafo">3. ¿De que forma abono el servicio?</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThreeInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeInicio" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis recusandae autem eius quae distinctio nemo velit possimus reprehenderit commodi nostrum iusto, molestiae reiciendis dicta accusamus non incidunt debitis eligendi magnam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="acordionFondoTransparente accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFourInicio">
+                                <button class="acordionFondoTransparente accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourInicio" aria-expanded="false" aria-controls="flush-collapseFourInicio">
+                                    <p class="acordionParrafo">4. ¿Necesito materiales para las clases?</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFourInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingFourInicio" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis recusandae autem eius quae distinctio nemo velit possimus reprehenderit commodi nostrum iusto, molestiae reiciendis dicta accusamus non incidunt debitis eligendi magnam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="acordionFondoTransparente accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFiveInicio">
+                                <button class="acordionFondoTransparente accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFiveInicio" aria-expanded="false" aria-controls="flush-collapseFiveInicio">
+                                    <p class="acordionParrafo">5. ¿Las clases son grupales o individuales?</p>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFiveInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingFiveInicio" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis recusandae autem eius quae distinctio nemo velit possimus reprehenderit commodi nostrum iusto, molestiae reiciendis dicta accusamus non incidunt debitis eligendi magnam.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwoInicio">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoInicio" aria-expanded="false" aria-controls="flush-collapseTwoInicio">
-                                2. ¿Cómo reservo una clase?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwoInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingTwoInicio" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta et cum eligendi rem ipsa recusandae doloribus nisi iusto velit vel laboriosam quibusdam sequi itaque doloremque quasi, voluptatem nihil iste rerum?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThreeInicio">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeInicio" aria-expanded="false" aria-controls="flush-collapseThreeInicio">
-                                3. ¿De que forma abono el servicio?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThreeInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingThreeInicio" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis recusandae autem eius quae distinctio nemo velit possimus reprehenderit commodi nostrum iusto, molestiae reiciendis dicta accusamus non incidunt debitis eligendi magnam.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFourInicio">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourInicio" aria-expanded="false" aria-controls="flush-collapseFourInicio">
-                                4. ¿Necesito materiales para las clases?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFourInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingFourInicio" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis recusandae autem eius quae distinctio nemo velit possimus reprehenderit commodi nostrum iusto, molestiae reiciendis dicta accusamus non incidunt debitis eligendi magnam.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingFiveInicio">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFiveInicio" aria-expanded="false" aria-controls="flush-collapseFiveInicio">
-                                5. ¿Las clases son grupales o individuales?
-                            </button>
-                        </h2>
-                        <div id="flush-collapseFiveInicio" class="accordion-collapse collapse" aria-labelledby="flush-headingFiveInicio" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis recusandae autem eius quae distinctio nemo velit possimus reprehenderit commodi nostrum iusto, molestiae reiciendis dicta accusamus non incidunt debitis eligendi magnam.
-                            </div>
-                        </div>
+                    <div class="contenedorBotonPreguntas">
+                      <button class="botonPreguntas botonAzul">Ver más</button>
                     </div>
                 </div>
             </div>
-            <!--Agregar la imagen cortada de esa manera-->
-            <div class="divElementoGraficoEsquina">
-                <div class="div-divElementoGraficoEsquina div-divElementoGraficoEsquina-izquierda">
-                    <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGrafico-abajoIzquierda">
+            <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGraficoAbajoIzquierda">
+        </section>
+
+        <!-- TODO: agregar carrousel con testimonios-->
+        <section class="sectionTestimoniosInicio">
+            <h2 class="h2Testimonios">Nuestros alumnos</h2>
+            <h3 class="h3Testimonios">Testimonios</h3>
+            <div>
+                <p class="carouselTestimonios">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc</p>
+                <div class="contenedorImagenTestimonios">
+                    <img class="imagenTestimonios" src="assets/inicio/alejandro.png" alt="">
+                    <p class="detalleImagenTestimonio">Alejandro</p>
                 </div>
             </div>
         </section>
-        <section id="sectionTestimonios-Inicio">
-            <h2>Nuestros alumnos</h2>
-            <h3>Testimonios</h3>
-            <!--Armar Carrousel-->
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc</p>
-                <div>
-                    <img src="assets/inicio/alejandro.png" alt="">
-                    <p>Alejandro</p>
-                </div>
-            </div>
-        </section>
-        <section id="sectionBlog-Inicio">
-            <img src="assets/inicio/Elemento gráfico.svg" alt="espiral">
-            <h2>Blog</h2>
+
+        <section class="sectionBlogInicio">
+            <img class="elementoEspiral" src="assets/inicio/Elemento gráfico.svg" alt="espiral">
+            <h2 class="h2Blog">Blog</h2>
             <h3>Artículos de interés</h3>
-            <div>
-                <div>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem</p>
-                    <button>Seguir leyendo</button>
-                </div>
-                <img src="assets/inicio/IMG 10.png" alt="">
-            </div>
-            <div>
-                <img src="assets/inicio/IMG 11.png" alt="">
-                <div>
-                    <h4>Lorem ipsum dolor</h4>
-                    <p>Sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem</p>
-                    <button>Seguir leyendo</button>
-                </div>
-            </div>
-            <div class="divElementoGraficoEsquina">
-                <div class="div-divElementoGraficoEsquina div-divElementoGraficoEsquina-derecha">
-                    <img src="../assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina">
-                </div>
-            </div>
-        </section>
-        <section class="sectionContacto">
-            <img src="assets/Sobre_mi/IMG 14.png" alt="" class="img14">
-            <div class="divsectionContacto">
-                <h4 class="h4sectionContacto">Datos de contacto</h4>
-                <p class="psectionContacto">Lorem ipsum dolor</p>
-                <p class="psectionContacto">Lorem ipsum dolor</p>
-                <p class="psectionContacto">Lorem ipsum dolor</p>
-                <div>
-                    <a href=""><img src="assets/inicio/logoWhatsapp.png" alt="" class="iconsectionContacto"></a>
-                    <a href=""><img src="assets/inicio/logoInstagram.png" alt="" class="iconsectionContacto"></a>
-                    <a href=""><img src="assets/inicio/logoMail.png" alt="" class="iconsectionContacto"></a>
+            <div class="contenidoBlog">
+                <div class="contenedorBlog">
+                    <div class="entradaImparBlog">
+                        <div class="detalleImparBlog">
+                            <h4 class="h4Blog">Lorem ipsum dolor</h4>
+                            <p class="pBlog">Sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem</p>
+                            <div class="contenedorBotonBlog">
+                                <button class="botonAzul">¡Seguir leyendo!</button>
+                            </div>
+                        </div>
+                        <div class="contenedorImagenImparBlog">
+                          <img src="assets/inicio/IMG 10.png" alt="">
+                        </div>
+                    </div>
+                    <div class="entradaParBlog entradaMarginBlog">
+                        <div class="contenedorImagenParBlog">
+                            <img src="assets/inicio/IMG 11.png" alt="">
+                        </div>
+                        <div class="detalleParBlog">
+                          <div class="">
+                              <h4 class="h4Blog">Lorem ipsum dolor</h4>
+                              <p class="pBlog">Sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem</p>
+                              <div class="contenedorBotonBlog">
+                                  <button class="botonAzul">¡Seguir leyendo!</button>
+                              </div
+                          </div>
+                        </div>
+                    <img src="assets/inicio/Elemento gráfico fondo.svg" alt="" class="elementoGraficoEsquina elementoGraficoAbajoDerecha">
                 </div>
             </div>
         </section>
+
+        <section class="sectionContacto" id="contacto">
+            <div class="contenedorImagenContacto">
+                <img class="imagenContacto" src="assets/Sobre_mi/IMG 14.png" alt="" class="img14">
+            </div>
+            <div class="detalleContacto">
+                <h4 class="h4Contacto">Datos de contacto</h4>
+                <div class="contenedorParrafosContacto">
+                    <p class="pContacto">Lorem ipsum dolor</p>
+                    <p class="pContacto">Lorem ipsum dolor</p>
+                    <p class="pContacto">Lorem ipsum dolor</p>
+                </div>
+
+                <div class="contenedorIconosContacto">
+                    <a href=""><img src="assets/inicio/logoWhatsapp.png" alt="" class="iconoContacto"></a>
+                    <a href=""><img src="assets/inicio/logoInstagram.png" alt="" class="iconoContacto"></a>
+                    <a href=""><img src="assets/inicio/logoMail.png" alt="" class="iconoContacto"></a>
+                </div>
+            </div>
+        </section>
+
         <div class="divFinSections">
             <img src="assets/inicio/Elemento gráfico.svg" alt="" class="espiralCentrado">
         </div>
+
     </main>
-    <footer> <!--REHACER FOOTER-->
-        <div id="footerPrimeraParte">
-            <div>
-                <img src="assets/inicio/logoFooter.svg" class="logoFooter" alt="logo">
-                <div class="div_pFooter">
-                    <p class="colorLetrasFooter" id="pFooter">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
-                </div>
+
+
+
+  <!-- TODO: preguntar si aca va un dropdown  -->
+    <footer class="footer">
+          <nav class="navFooter">
+            <div class="contenedorLogoFooter">
+              <img src="assets/inicio/logoFooter.svg" class="logoFooter" alt="logo">
             </div>
-            <ul id="divRedesSociales">
-                <li class="liFooter"><a href="#" target="_blank" class="colorLetrasFooter redesSocialesFooter"><img src="assets/inicio/akar-icons_instagram-fill.svg" alt="instagram" class="sizeIconInstagram">Lorem ipsum </a></li>
-                <li class="liFooter"><a href="#" target="_blank" class="colorLetrasFooter redesSocialesFooter"><img src="assets/inicio/icon-whatsapp.svg" alt="whatsapp" class="sizeIconWhatsapp">Lorem ipsum </a></li>
-                <li class="liFooter"><a href="#" target="_blank" class="colorLetrasFooter redesSocialesFooter"><img src="assets/inicio/icon-mail.svg" alt="mail" class="sizeIconMail">Lorem ipsum </a></li>
-            </ul>
-        </div>
-        <div id="navFooter">
-            <ul>
-                <li class="liFooter">
-                    <a href="index.html" class="colorLetrasFooter">Inicio</a>
-                </li>
-                <li class="liFooter">
-                    <a href="pages/sobreMi.html" class="colorLetrasFooter">Sobre mi</a>
-                </li>
-                <li class="liFooter">
-                    <a href="#" class="colorLetrasFooter">Servicios</a><!--PREGUNTAR SI ACÁ VA TAMBIEN UN DROPDOWN-->
-                </li>
-                <li class="liFooter">
-                    <a href="pages/blog.html" class="colorLetrasFooter">Blog</a>
-                </li>
-                <li class="liFooter">
-                    <a href="pages/preguntasFrecuentes.html" class="colorLetrasFooter">Preguntas frecuentes</a>
-                </li>
-                <li class="liFooter">
-                    <a href="#" class="colorLetrasFooter">Contacto</a>
-                </li>
-            </ul>
-        </div>    
-        <div id="copyright">
-            <img src="assets/inicio/iconoir_copyright.svg" alt="Copyright"> 
-            <p class="colorLetrasFooter" id="pCopyright">2021 Ana Studio () Todos los derechos reservados</p>
-        </div>
+            <div class="inicioNavFooter">
+              <a href="index.html" class="textoNavFooter colorLetrasFooter">Inicio</a>
+            </div>
+            <div class="sobreNavFooter">
+              <a href="pages/sobreMi.html" class="textoNavFooter colorLetrasFooter">Sobre mi</a>
+            </div>
+            <div class="serviciosNavFooter">
+              <a href="#" class="textoNavFooter colorLetrasFooter">Servicios</a>
+            </div>
+            <div class="blogNavFooter">
+              <a href="pages/blog.html" class="textoNavFooter colorLetrasFooter">Blog</a>
+            </div>
+            <div class="preguntasNavFooter">
+              <a href="pages/preguntasFrecuentes.html" class="textoNavFooter colorLetrasFooter">Preguntas frecuentes</a>
+            </div>
+            <div class="contactoNavFooter">
+              <a href="#contacto" class="textoNavFooter colorLetrasFooter">Contacto</a>
+            </div>
+            <div class="contenedorDetalleFooter">
+                <p class="pDetalleFooter colorLetrasFooter">Lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+
+            </div>
+            <div class="contenedorRedesFooter">
+                <ul class="redesFooter">
+                    <li>
+                      <a href="#" target="_blank" class="itemRedesFooter colorLetrasFooter">
+                        <img src="assets/inicio/akar-icons_instagram-fill.svg" alt="instagram" class="sizeIconInstagram">
+                        <p class="pRedesFooter" >Lorem ipsum</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="itemRedesFooter colorLetrasFooter">
+                        <img src="assets/inicio/icon-whatsapp.svg" alt="whatsapp" class="sizeIconWhatsapp">
+                        <p class="pRedesFooter" >Lorem ipsum</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_blank" class="itemRedesFooter colorLetrasFooter">
+                        <img src="assets/inicio/icon-mail.svg" alt="mail" class="sizeIconMail">
+                        <p class="pRedesFooter" >Lorem ipsum</p>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contenedorCopyFooter">
+              <img src="assets/inicio/iconoir_copyright.svg" alt="Copyright">
+              <p class="pCopyFooter colorLetrasFooter">2021 Ana Studio () Todos los derechos reservados</p>
+            </div>
+          </nav>
     </footer>
+
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

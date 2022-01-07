@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +36,31 @@ h3 {
     text-align: center;
 }
 
-.buttonUneteALaClase {
+h4 {
+    color: #3534BE;
+    font-family: roboto;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+.textoPrincipalPages {
+    font-size: 5rem;
+    line-height: 5.9rem;
+    text-align: center;
+    color: #FAFAFA;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 5.408rem;
+}
+
+.botonUneteALaClase {
     background-color: transparent;
     color: #FAFAFA;
     border: 4px solid #FAFAFA;
@@ -72,39 +95,20 @@ h3 {
     justify-content: center;
 }
 
-.divElementoGraficoEsquina {
-    position: relative;
+.botonAzul {
+  border: none;
+  color: #3534BE;
+  font-size: 2rem;
+  background-color: transparent;
 }
 
-.div-divElementoGraficoEsquina {
-    height: 30rem;
-    width: 34.478rem;
-    overflow: hidden;
-    position: absolute;
-    bottom: 0px;
+.acordionFondoTransparente {
+  background-color: transparent!important;
 }
 
-.div-divElementoGraficoEsquina-derecha {
-    right: 0px;
-}
-
-.div-divElementoGraficoEsquina-izquierda {
-    left: 0px;
-}
-
-.elementoGraficoEsquina {
-    position: absolute;
-    width: 46.853rem;
-    height: 51.902rem;
-    transform: rotate(128.39deg);
-}
-
-.elementoGrafico-arribaDerecha {
-    bottom: 0px;
-}
-
-.elementoGrafico-abajoIzquierda {
-    right: 0px;
+.acordionParrafo {
+  margin-bottom: 0;
+  font-size: 1.8rem;
 }
 
 @import "header";

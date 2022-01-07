@@ -1,52 +1,35 @@
 $colorAzulTexto: #3534BE;
+$breakpoint: 768px;
 
-
+//INICIO
 header {
     background-color: #FAFAFA;
-    width: 100%;
 }
 
-#headerInicio {
+.headerInicio {
     background-color: #E5EBF9;
-    height: 72rem;
 }
 
-.headerPages {
-    height: 12.537rem;
-}
-.logo1-header {
-    visibility: hidden;
+// TODO: chequear como mejorar el nav de bootstrap
+.navbarInicio {
+  padding: 3.6rem 2rem 1rem 2rem;
+
+  @media (max-width: $breakpoint) {
+    padding: 3.6rem 0 1rem 0;
+  }
+
+  &Lista {
+  gap: 3rem;
+  }
+
 }
 
-.logo2-header {
-    margin: 0 3rem;
-}
+.liServicios {
+    margin-right: 18vw;
 
-#menuNav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menuNavInicio {
-    margin-top: 5.037rem;
-}
-
-.menuNavPages {
-    margin-top: 3.244rem;
-}
-
-.navDiv {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-item {
-    margin-right: 3.5rem;
-}
-
-#liServicios {
-    margin-right: 26.591rem;
+    @media (max-width: $breakpoint) {
+      margin-right: 0;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -59,53 +42,9 @@ header {
     line-height: 2.1rem;
 }
 
-.nav-link-dropdown {
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    color: #242367;
-    font-family: Roboto;
-}
-
-.button {
-    border: none;
-}
-
-.dropdown-content {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 51.3rem;
-    height: 23.3rem;
-}
-
-.tituloDropdown {
-    margin-top: 1.705rem;
-    margin-bottom: 1.452rem;
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    color: #242367;
-}
-
-.dropdown-item {
-    font-weight: normal;
-    color: #242367;
-    margin-bottom: 2.8rem;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-}
-
-.dropdown-divider {
-    background-color: rgba(53, 52, 190, 0.3);
-}
-
 .navbar-toggler {
     border: none;
-    position: absolute;
-    left: 31.135rem;
-    top: 2rem;
+    margin-right: 2.3rem;
 
     .navbar-toggler-icon {
         width: 4rem;
@@ -113,14 +52,15 @@ header {
     }
 }
 
+// TODO: podria ir una svg aca directamente
 .navbar-light .navbar-toggler-icon {
     background-image: url(../assets/inicio/iconoir_menu.png);
 }
 
-.imgPrincipalInicio {          
-    width: 78.537rem;
-    height: 52.588rem;
-    margin: 1.1rem 25.863rem 3.392rem 23.6rem;
+.imgPrincipalInicio {
+    display: block;
+    margin: 0 auto;
+    padding: 0 2rem 3rem 2rem;
 }
 
 .pPSD {
@@ -137,9 +77,170 @@ header {
     font-size: 2.3rem;
     line-height: 2.7rem;
     text-align: center;
-    margin-bottom: 5.364rem;
+    padding-bottom: 5.3rem;
+    margin-bottom: 0rem;
+
+    @media (max-width: $breakpoint) {
+      margin-top: 5rem;
+    }
 
     a {
         color: $colorAzulTexto;
     }
+
+
 }
+
+//PAGES
+// TODO: ARREGLAR NAVBAR
+.headerPages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+
+  @media (max-width: 1200px) {
+    justify-content: space-between;
+  }
+}
+
+.contenedorLogoHeaderPages {
+  @media (max-width: 1200px) {
+    display: none;
+  }
+
+}
+.logoHeaderPages {
+  padding: 0 4rem;
+}
+
+.contendorLogoResponsiveHeaderPages {
+  display: none;
+
+  @media (max-width: 1200px) {
+    display: contents;
+  }
+}
+
+.navbarPages {
+
+
+  &Lista {
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  }
+
+}
+
+.navbarTogglerPages {
+  margin-right: 0!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TODO: rever que sirve de este codigo cuando a arranque a ver bootstrap
+// .logo1-header {
+//     visibility: hidden;
+// }
+
+// .logo2-header {
+//     margin: 0 3rem;
+// }
+
+// #menuNav {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+// .menuNavInicio {
+//     margin-top: 5.037rem;
+// }
+
+// .menuNavPages {
+//     margin-top: 3.244rem;
+// }
+
+// .navDiv {
+//     display: flex;
+//     flex-direction: row;
+// }
+
+// .nav-item {
+//     margin-right: 3.5rem;
+// }
+
+// .nav-link-dropdown {
+//     font-weight: 500;
+//     font-size: 1.8rem;
+//     line-height: 2.1rem;
+//     color: #242367;
+//     font-family: Roboto;
+// }
+
+// .dropdown-content {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     width: 51.3rem;
+//     height: 23.3rem;
+// }
+
+// .tituloDropdown {
+//     margin-top: 1.705rem;
+//     margin-bottom: 1.452rem;
+//     font-weight: 500;
+//     font-size: 1.8rem;
+//     line-height: 2.1rem;
+//     color: #242367;
+// }
+
+// .dropdown-item {
+//     font-weight: normal;
+//     color: #242367;
+//     margin-bottom: 2.8rem;
+//     font-size: 1.8rem;
+//     line-height: 2.1rem;
+// }
+
+// .dropdown-divider {
+//     background-color: rgba(53, 52, 190, 0.3);
+// }
+
+// .navbar-toggler {
+//     border: none;
+//     position: absolute;
+//     left: 31.135rem;
+//     top: 2rem;
+//
+//     .navbar-toggler-icon {
+//         width: 4rem;
+//         height: 4rem;
+//     }
+// }
+
+// .imgPrincipalInicio {
+//     width: 78.537rem;
+//     height: 52.588rem;
+//     margin: 1.1rem 25.863rem 3.392rem 23.6rem;
+// }

@@ -1,94 +1,449 @@
-//BENEFICIOS
+//ELEMENTOS
+//HAY QUE VER RESPONSIVENESS
+.elementoGraficoEsquina {
+    position: absolute;
+    width: 60rem;
+    height: 66rem;
+    z-index: -1;
+    // transform: rotate(128.39deg);
 
-#h2Beneficios {
-    margin-top: 13.195rem;
-    margin-bottom: 2.05rem;
+    @media (max-width: $breakpoint) {
+      width: 18rem;
+      height: 20rem;
+    }
 }
 
-#ulBeneficios {
-    margin-left: 7.155rem;
+.elementoGrafico-arribaDerecha {
+  right: -15rem;
+  top: -36rem;
+
+  @media (max-width: $breakpoint) {
+    right: -7rem;
+    top: -8rem
+  }
+}
+
+.elementoGraficoAbajoIzquierda {
+  left: -30rem;
+  bottom: -36rem;
+
+  @media (max-width: $breakpoint) {
+    left: -7rem;
+    bottom: -8rem
+  }
+}
+
+.elementoGraficoAbajoDerecha {
+  right: -20rem;
+  bottom: -37rem;
+
+  @media (max-width: $breakpoint) {
+    right: -7rem;
+    bottom: -8rem;
+  }
+}
+
+.elementoEspiral {
+  display: block;
+  margin: 0 auto;
+}
+
+//BENEFICIOS
+.sectionBeneficiosInicio {
+  position: relative;
+  overflow: hidden;
+}
+
+.h2Beneficios {
+    margin: 10rem 0 2rem 0;
+}
+
+.contenedorBeneficiosInicio {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 47% 53%;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: $breakpoint) {
+      display: flex;
+      justify-content: center;
+    }
+
+}
+.detallesBenficiosInicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .liBeneficios {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 1rem 6rem;
+
+  @media (max-width: $breakpoint) {
+    padding-right: 6rem;
+  }
 }
 
 .iconBeneficios {
-    width: 5.933rem;
-    height: 5.933rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .pBeneficios {
     color: #4D4D4D;
     font-weight: 300;
     font-size: 1.8rem;
-    line-height: 2.1rem;
-    text-align: center;
-    margin-left: 3.386rem;
+    margin: 0 0 0 2rem;
 }
 
-#img1-Index {
-    width: 26.925rem;
-    height: 40.383rem;
+//VER SI USAR WRAP U OTRA COSA PARA EL RESPONSIVE
+.imagenesBeneficios-Inicio {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (max-width: $breakpoint) {
+    display: none;
+  }
 }
 
-#img2-Index {
-    width: 26.7rem;
-    height: 26.7rem;
+
+//SERVICIOS
+.sectionServiciosActualesInicio {
+  margin-top: 10rem;
+
 }
 
-#divsectionBeneficios-Inicio {
+
+.h2Servicios {
+  margin-bottom: 2rem;
+}
+
+//VER SI USAR WRAP U OTRA COSA PARA EL RESPONSIVE
+.contenedorServiciosInicio {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 53% 47%;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: $breakpoint) {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+  }
+}
+
+//CENTRAR IMAGENES CON MEDIA QUERY CUANDO ENTRA EL FLEX WRAP
+.imagenesServiciosInicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-bottom: 0;
+
+  @media (max-width: $breakpoint) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    align-items: stretch;
+    margin-bottom: 4rem;
+  }
+
+}
+
+.detallesServicios-Inicio {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6rem;
+}
+
+.pServicios {
+  color: #4D4D4D;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.contenedorBotonServicios {
+  margin-top: 2rem;
+}
+
+//NUESTRO ESPACIO
+
+.sectionNuestroEspacioInicio {
+  margin-top: 10rem;
+  position: relative;
+}
+
+.h2NuestroEspacio {
+  margin: 1.5rem 0 2rem 0;
+}
+
+//PREGUNTAS FRECUENTES
+.sectionPreguntasFrecuentesInicio {
+  margin-top: 10rem;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 20rem;
+
+  @media (max-width: $breakpoint) {
+    padding-bottom: 10rem;
+  }
+}
+
+.h2NuestroEspacio {
+  margin-bottom: 2rem;
+}
+
+.contenedorPreguntasFrecuentes {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+
+  @media (max-width: $breakpoint) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contenedorImagenPreguntas {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: $breakpoint) {
+    display: none;
+  }
+}
+
+.imagenPreguntasFrecuentes {
+  padding-left: 6rem;
+}
+
+.contenedorDetallesPreguntas {
+  padding: 0 6rem;
+}
+
+.contenedorBotonPreguntas {
+  margin-top: 3rem;
+}
+
+//TESTIMONIOS
+.sectionTestimoniosInicio,
+.h2Testimonios,
+.h3Testimonios {
+  color: white;
+}
+
+.sectionTestimoniosInicio {
+  background-color: #3534BE;
+  padding: 4rem 0 3rem 0;
+  color: white;
+}
+
+.h2Testimonios {
+  margin-bottom: 2rem;
+}
+
+.carouselTestimonios {
+  text-align: center;
+  margin: 5rem 0 4rem 0;
+
+  @media (max-width: $breakpoint) {
+    margin: 7rem 0 6rem 0;
+  }
+}
+
+.contenedorImagenTestimonios {
+
+}
+
+.imagenTestimonios {
+  display: block;
+  margin: 0 auto;
+}
+
+.detalleImagenTestimonio {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+//BLOG
+.entradaMarginBlog {
+  margin-top: 7rem;
+}
+.sectionBlogInicio {
+  margin-top: 10rem;
+  padding-bottom: 20rem;
+  position: relative;
+  overflow: hidden;
+
+  @media (max-width: $breakpoint) {
+    padding-bottom: 13rem;
+  }
+}
+
+.h2Blog {
+  margin: 1.5rem 0 2rem 0;
+}
+
+.contenidoBlog {
+  margin-top: 10rem;
+}
+
+.contenedorBlog {
+  max-width: 125rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.entradaImparBlog {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 2rem;
+
+  @media (max-width: $breakpoint) {
+    grid-template-areas: "imagen"
+                         "detalle";
+    grid-template-columns: 100%;
+  }
+}
+
+.detalleImparBlog {
+  @media (max-width: $breakpoint) {
+    grid-area: detalle;
+  }
+}
+
+.h4Blog {
+  font-size: 2.3rem;
+  color: #3534BE;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.pBlog {
+  font-size: 1.8rem;
+}
+
+.contenedorBotonBlog {
+  margin-top: 2rem;
+}
+
+.contenedorImagenImparBlog {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  @media (max-width: $breakpoint) {
+    justify-content: center;
+    grid-area: imagen;
+  }
+}
+
+.entradaParBlog {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 2rem;
+
+  @media (max-width: $breakpoint) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contenedorImagenParBlog {
+  display: flex;
+  align-items: center;
+}
+
+.detalleParBlog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 //CONTACTO
-
 .img14 {
-    width: 64rem;
-    height: 47.433rem;
+
 }
 
 .sectionContacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  @media (max-width: $breakpoint) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
 }
 
-.divsectionContacto {
+.contenedorImagenContacto {
+  @media (max-width: $breakpoint) {
+    display: none;
+  }
+}
+
+//ESTA IMAGEN TIENE QUE IR COMO UNA BG IMAGE CON COVER
+.imagenContacto {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.detalleContacto {
     background: #FFFFFF;
     border: 2px solid #111111;
-    width: 100%;
-    height: 47.433rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.h4sectionContacto {
+.h4Contacto {
     font-family: New York Extra Large;
     font-size: 2.5rem;
-    line-height: 3rem;
     color: #8BAAFC;
     margin-top: 7.208rem;
     margin-bottom: 5.42rem;
+
+    @media (max-width: $breakpoint) {
+      margin-top: 3.1rem;
+      margin-bottom: 3.5rem;;
+    }
 }
 
-.psectionContacto {
+.contenedorParrafosContacto {
+  margin-bottom: 5.42rem;
+
+  @media (max-width: $breakpoint) {
+    margin-bottom: 3.4rem;
+  }
+}
+
+.pContacto {
     font-weight: 300;
     font-size: 1.8rem;
-    line-height: 2.1rem;
+    line-height: 4rem;
     color: #4D4D4D;
-    margin-bottom: 3.889rem;
 }
 
-.iconsectionContacto {
-    width: 6.22rem;
-    height: 6.22rem;
-    margin-top: 1.531rem;
-    margin-bottom: 6.089rem;
+.contenedorIconosContacto {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6rem;
+
+  @media (max-width: $breakpoint) {
+    margin-bottom: 3.3rem;
+  }
+}
+
+.iconoContacto {
+    width: 6rem;
+    height: 6rem;
 }

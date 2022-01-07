@@ -1,5 +1,4 @@
-
-#sectionPrincipal-SobreMi {
+.sectionPrincipalSobreMi {
     background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
     background-position: bottom;
     background-size: cover;
@@ -13,39 +12,121 @@
 
 }
 
-.h1sectionPrincipal {
-    font-size: 5rem;
-    line-height: 5.9rem;
-    text-align: center;
-    color: #FAFAFA;
-    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
-}
-
-#h1sectionPrincipal-SobreMi {
-    margin-bottom: 5.408rem;
-}
-
-#h2sectionPresentacion-SobreMi {
+.h2ProfesoraSobreMi {
     margin-top: 2.1rem;
     margin-bottom: 7.991rem;
 }
 
-#divsectionPresentacion-SobreMi {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+.presentacionSobreMi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+    @media(max-width: $breakpoint) {
+      display: flex;
+      flex-direction: column;
+
+    }
 }
 
-#psectionPresentacion-SobreMi {
-    position: static;
-    width: 38.655rem;
-    height: 29.4rem;
-    left: 54.046rem;
-    margin: 0rem 6.5rem;
+.contenedorImagenPresenctacionSobreMi {
+  display: flex;
+  justify-content: center;
+  padding-left: 6rem;
+
+  @media(max-width: $breakpoint) {
+    padding: 0 0 2rem 0;
+
+  }
 }
 
-#h2sectionTrayectoria-SobreMi {
+.pPresentacionSobreMi {
+  padding: 0 6rem;
+}
+
+.h2TrayectoriaSobreMi {
     margin-top: 17.606rem;
     margin-bottom: 2.05rem;
+
+    @media (max-width: $breakpoint) {
+      margin-top: 8rem;
+    }
+}
+
+.contenedorLineaTrayectoriaSobreMi {
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 0;
+}
+
+.lineaTrayectoriaSobreMi {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: .2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3534BE;
+  }
+}
+
+.lineaTrayectoriaSobreMi ul li {
+  padding: 2rem;
+  margin-bottom: 5rem;
+  width: 50%;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    background-color: #3534BE;
+    border-radius: 50%;
+    top: 0;
+  }
+
+  &:hover:after {
+    background-color: #242367;
+;
+  }
+}
+
+.lineaTrayectoriaSobreMi ul li:nth-child(odd) {
+  float: left;
+  clear: right;
+  transform: translateX(-3rem);
+
+  &::after {
+    transform: translate(50%, -50%);
+    right: -2rem;
+  }
+}
+
+.lineaTrayectoriaSobreMi ul li:nth-child(even){
+  float: right;
+  clear: left;
+  transform: translateX(3rem);
+
+  &::after {
+    transform: translate(-50%, -50%);
+    left: -4rem;
+  }
+
+}
+
+.lineaTrayectoriaSobreMi ul li:last-child {
+  margin-bottom: 0rem;
+}
+
+
+.entradaLineaTrayectoriaSobreMi {
+  font-size: 1.8rem;
 }
