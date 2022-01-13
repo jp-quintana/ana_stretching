@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Roboto';
-  background-color: #E5E5E5; }
+  background-color: #FAFAFA; }
 
 a {
   text-decoration: none; }
@@ -808,7 +808,7 @@ header {
 .p-sectionOtrosArticulos-Articulo {
   margin-bottom: 4rem; }
 
-#sectionPrincipal-PreguntasFrecuentes {
+.sectionPrincipalPreguntasFrecuentes {
   background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
   background-position: bottom;
   background-size: cover;
@@ -820,38 +820,30 @@ header {
   height: 70rem;
   margin-bottom: 7.991rem; }
 
-#h2-sectionPreguntas-PreguntasFrecuentes {
+.contenidoPreguntasFrecuentes {
+  padding-bottom: 23rem;
+  position: relative;
+  overflow: hidden; }
+  @media (max-width: 768px) {
+    .contenidoPreguntasFrecuentes {
+      padding-bottom: 14rem; } }
+
+.h2sectionPreguntasPreguntasFrecuentes {
   margin-top: 2.05rem;
   margin-bottom: 14.252rem; }
+  @media (max-width: 768px) {
+    .h2sectionPreguntasPreguntasFrecuentes {
+      margin-bottom: 7rem; } }
 
-#accordionFlushExample2 {
-  width: 91.821rem;
-  margin: 0rem 17.981rem 23.426rem 18.198rem;
-  margin-bottom: 23.426rem; }
-
-.button-sectionPreguntas-PreguntasFrecuentes {
-  font-size: 1.8rem;
-  line-height: 2.1rem;
-  color: #4D4D4D;
-  padding: 1.7rem 0rem;
-  padding-left: 1rem;
-  background-color: #E5E5E5;
-  border-bottom: 1px solid rgba(77, 77, 77, 0.2); }
-
-#button1-sectionPreguntas-PreguntasFrecuentes {
-  border-top: 1px solid rgba(77, 77, 77, 0.2); }
-
-.accordion-button::after {
-  width: 2.4rem;
-  height: 2.4rem;
-  left: 89.421rem;
-  top: 1.529rem; }
+.contendorListaPreguntasFrecuentes {
+  margin: 0 auto;
+  max-width: 92rem;
+  width: 90%; }
 
 .accordion-body {
   font-size: 1.8rem;
   line-height: 2.1rem;
-  color: #4D4D4D;
-  background-color: #E5E5E5; }
+  color: #4D4D4D; }
 
 .footer {
   background-color: #3534BE; }
