@@ -78,7 +78,7 @@
 }
 
 .lineaTrayectoriaSobreMi ul li {
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
   margin-bottom: 5rem;
   width: 50%;
   position: relative;
@@ -86,8 +86,8 @@
   &::after {
     content: '';
     position: absolute;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     background-color: #3534BE;
     border-radius: 50%;
     top: 0;
@@ -129,4 +129,18 @@
 
 .entradaLineaTrayectoriaSobreMi {
   font-size: 1.8rem;
+}
+
+.linkTrayectoriaSobreMi {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-color: #3534BE;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

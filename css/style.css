@@ -588,15 +588,15 @@ header {
     background-color: #3534BE; }
 
 .lineaTrayectoriaSobreMi ul li {
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
   margin-bottom: 5rem;
   width: 50%;
   position: relative; }
   .lineaTrayectoriaSobreMi ul li::after {
     content: '';
     position: absolute;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     background-color: #3534BE;
     border-radius: 50%;
     top: 0; }
@@ -624,6 +624,19 @@ header {
 
 .entradaLineaTrayectoriaSobreMi {
   font-size: 1.8rem; }
+
+.linkTrayectoriaSobreMi {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  background-color: #3534BE;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .sectionPrincipal-Servicios {
   background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png);
