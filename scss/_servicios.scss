@@ -15,6 +15,10 @@
 
 .sectionPresentacionServicios {
   padding-bottom: 15rem;
+
+  @media (max-width: $breakpoint) {
+    padding-bottom: 7rem;
+  }
 }
 
 .h2sectionPresentacion-Servicios {
@@ -22,14 +26,18 @@
     margin-bottom: 9.456rem;
 }
 
-.contenedorContenidoPresentacionServicios {
+.contenedorDivIcons-sectionPresentacion-Servicios,
+.contenedorDivP-sectionPresentacion-Servicios {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   max-width: 90rem;
-  width: 80%;
-  gap: 7rem;
+}
+
+.contenedorDivIcons-sectionPresentacion-Servicios {
+  margin-bottom: 7rem;
+  width: 90%;
 }
 
 .divIcons-sectionPresentacion-Servicios {
@@ -72,6 +80,10 @@
       display: flex;
       flex-direction: column-reverse;
       gap: 2.5rem;
+
+      & div {
+        padding: 0 3rem;
+      }
     }
 }
 
@@ -81,6 +93,10 @@
   @media (max-width: $breakpoint) {
     padding-right: 0rem;
   }
+}
+
+.botonServiciosPages {
+  margin-top: 3rem;
 }
 
 .h3-sectionGaleria-Servicios {

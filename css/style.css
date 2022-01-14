@@ -652,19 +652,25 @@ header {
 
 .sectionPresentacionServicios {
   padding-bottom: 15rem; }
+  @media (max-width: 768px) {
+    .sectionPresentacionServicios {
+      padding-bottom: 7rem; } }
 
 .h2sectionPresentacion-Servicios {
   margin-top: 2.05rem;
   margin-bottom: 9.456rem; }
 
-.contenedorContenidoPresentacionServicios {
+.contenedorDivIcons-sectionPresentacion-Servicios,
+.contenedorDivP-sectionPresentacion-Servicios {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  max-width: 90rem;
-  width: 80%;
-  gap: 7rem; }
+  max-width: 90rem; }
+
+.contenedorDivIcons-sectionPresentacion-Servicios {
+  margin-bottom: 7rem;
+  width: 90%; }
 
 .divIcons-sectionPresentacion-Servicios {
   display: grid;
@@ -700,13 +706,18 @@ header {
     .divP-sectionPresentacion-Servicios {
       display: flex;
       flex-direction: column-reverse;
-      gap: 2.5rem; } }
+      gap: 2.5rem; }
+      .divP-sectionPresentacion-Servicios div {
+        padding: 0 3rem; } }
 
 .p-sectionPresentacion-Servicios {
   padding-right: 8rem; }
   @media (max-width: 768px) {
     .p-sectionPresentacion-Servicios {
       padding-right: 0rem; } }
+
+.botonServiciosPages {
+  margin-top: 3rem; }
 
 .h3-sectionGaleria-Servicios {
   margin-top: 2.05rem;
