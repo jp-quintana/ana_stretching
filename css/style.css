@@ -650,21 +650,35 @@ header {
   height: 70rem;
   margin-bottom: 7.991rem; }
 
+.sectionPresentacionServicios {
+  padding-bottom: 15rem; }
+
 .h2sectionPresentacion-Servicios {
   margin-top: 2.05rem;
   margin-bottom: 9.456rem; }
 
-.divIcons-sectionPresentacion-Servicios {
+.contenedorContenidoPresentacionServicios {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  margin: 0rem 34.1rem; }
+  margin: 0 auto;
+  max-width: 90rem;
+  width: 80%;
+  gap: 7rem; }
+
+.divIcons-sectionPresentacion-Servicios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center; }
+  @media (max-width: 768px) {
+    .divIcons-sectionPresentacion-Servicios {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 5rem; } }
 
 .div-div-sectionPresentacion-Servicios {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center; }
 
 .icon-sectionPresentacion-Servicios {
@@ -679,12 +693,20 @@ header {
   margin-top: 1.844rem; }
 
 .divP-sectionPresentacion-Servicios {
-  display: flex;
-  flex-direction: row;
-  margin: 7.356rem 18.81rem 14.866rem 18.81rem; }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .divP-sectionPresentacion-Servicios {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2.5rem; } }
 
 .p-sectionPresentacion-Servicios {
-  margin-right: 9.9rem; }
+  padding-right: 8rem; }
+  @media (max-width: 768px) {
+    .p-sectionPresentacion-Servicios {
+      padding-right: 0rem; } }
 
 .h3-sectionGaleria-Servicios {
   margin-top: 2.05rem;
