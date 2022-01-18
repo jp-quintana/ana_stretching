@@ -182,6 +182,27 @@ header {
 .navbarTogglerPages {
   margin-right: 0 !important; }
 
+.contenedorDropdownNav {
+  display: grid;
+  grid-template-columns: repeat(2, max-content); }
+  @media (max-width: 768px) {
+    .contenedorDropdownNav {
+      grid-template-columns: 50% 50%; } }
+  .contenedorDropdownNav div p {
+    padding: 1rem 3rem;
+    font-weight: 500; }
+  .contenedorDropdownNav div a {
+    padding: 1rem 3rem;
+    font-weight: 400; }
+  .contenedorDropdownNav div a,
+  .contenedorDropdownNav div p {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #242367; }
+  .contenedorDropdownNav div a span {
+    font-weight: 500;
+    color: #242367; }
+
 .elementoGraficoEsquina {
   position: absolute;
   width: 60rem;

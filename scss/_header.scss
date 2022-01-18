@@ -137,6 +137,39 @@ header {
   margin-right: 0!important;
 }
 
+//ACA LO NUEVO
+.contenedorDropdownNav {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+
+  @media (max-width: $breakpoint) {
+    grid-template-columns: 50% 50%;
+  }
+
+
+  & div p {
+    padding: 1rem 3rem;
+    font-weight: 500;
+  }
+
+  & div a {
+    padding: 1rem 3rem;
+    font-weight: 400;
+  }
+
+  & div a,
+  div p {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #242367;
+  }
+
+  & div a span {
+    font-weight: 500;
+    color: #242367;
+  }
+}
+
 
 
 
