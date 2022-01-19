@@ -194,7 +194,9 @@ header {
   grid-template-columns: repeat(2, max-content); }
   @media (max-width: 768px) {
     .contenedorDropdownNav {
-      grid-template-columns: 50% 50%; } }
+      grid-template-columns: 100%;
+      width: 95vw;
+      text-align: center; } }
   .contenedorDropdownNav div p {
     padding: 1rem 3rem;
     font-weight: 500; }
@@ -209,6 +211,10 @@ header {
   .contenedorDropdownNav div a span {
     font-weight: 500;
     color: #242367; }
+
+@media (max-width: 768px) {
+  .onlineDropdownNav {
+    margin-top: 4rem; } }
 
 .elementoGraficoEsquina {
   position: absolute;

@@ -168,9 +168,10 @@ header {
   grid-template-columns: repeat(2, max-content);
 
   @media (max-width: $breakpoint) {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
+    width: 95vw;
+    text-align: center;
   }
-
 
   & div p {
     padding: 1rem 3rem;
@@ -195,6 +196,11 @@ header {
   }
 }
 
+.onlineDropdownNav {
+  @media (max-width: $breakpoint) {
+    margin-top: 4rem;
+  }
+}
 
 
 
