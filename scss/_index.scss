@@ -150,7 +150,7 @@
 
   @media (max-width: $breakpoint) {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     align-items: stretch;
     margin-bottom: 4rem;

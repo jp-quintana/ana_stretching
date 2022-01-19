@@ -189,26 +189,29 @@ header {
 .navbarTogglerPages {
   margin-right: 2rem; }
 
-.contenedorDropdownNav {
+@media (max-width: 768px) {
+  .contenedorDropdownNav {
+    width: 95vw; } }
+
+.contenedorDropdown {
   display: grid;
   grid-template-columns: repeat(2, max-content); }
   @media (max-width: 768px) {
-    .contenedorDropdownNav {
+    .contenedorDropdown {
       grid-template-columns: 100%;
-      width: 95vw;
       text-align: center; } }
-  .contenedorDropdownNav div p {
+  .contenedorDropdown div p {
     padding: 1rem 3rem;
     font-weight: 500; }
-  .contenedorDropdownNav div a {
+  .contenedorDropdown div a {
     padding: 1rem 3rem;
     font-weight: 400; }
-  .contenedorDropdownNav div a,
-  .contenedorDropdownNav div p {
+  .contenedorDropdown div a,
+  .contenedorDropdown div p {
     margin: 0;
     font-size: 1.8rem;
     color: #242367; }
-  .contenedorDropdownNav div a span {
+  .contenedorDropdown div a span {
     font-weight: 500;
     color: #242367; }
 
@@ -333,7 +336,7 @@ header {
   @media (max-width: 768px) {
     .imagenesServiciosInicio {
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
       align-items: stretch;
       margin-bottom: 4rem; } }
@@ -947,7 +950,8 @@ header {
 .blogNavFooter,
 .preguntasNavFooter,
 .contactoNavFooter {
-  padding: 4rem 0 1.5rem 0; }
+  margin: 3rem 0 1.5rem 0;
+  padding-top: 1rem; }
 
 .contenedorLogoFooter {
   grid-area: logo; }
@@ -964,6 +968,17 @@ header {
 
 .serviciosNavFooter {
   grid-area: servicios; }
+
+.contenedorDropdownFooter {
+  position: absolute;
+  left: 25%;
+  transform: translateX(-25%); }
+  @media (max-width: 768px) {
+    .contenedorDropdownFooter {
+      top: 0;
+      left: auto;
+      transform: none;
+      min-width: 200%; } }
 
 .blogNavFooter {
   grid-area: blog; }
@@ -982,7 +997,8 @@ header {
   grid-area: detalle; }
 
 .pDetalleFooter {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  text-align: center; }
 
 .contenedorRedesFooter {
   grid-area: redes; }
@@ -1023,6 +1039,10 @@ header {
   @media (max-width: 768px) {
     .contenedorCopyFooter {
       margin-top: 3rem; } }
+  @media (max-width: 768px) {
+    .contenedorCopyFooter img {
+      width: 2rem;
+      height: 2.1rem; } }
 
 .pCopyFooter {
   font-family: 'Inter';
@@ -1030,10 +1050,10 @@ header {
   font-size: 1.8rem; }
   @media (max-width: 768px) {
     .pCopyFooter {
-      font-size: 1.4rem; } }
+      font-size: 1.3rem; } }
 
 .colorLetrasFooter {
-  color: #FAFAFA; }
+  color: #FAFAFA !important; }
 
 .liFooter {
   list-style-type: none; }

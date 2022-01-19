@@ -164,12 +164,16 @@ header {
 
 //ACA LO NUEVO
 .contenedorDropdownNav {
+  @media (max-width: $breakpoint) {
+    width: 95vw;
+  }
+}
+.contenedorDropdown {
   display: grid;
   grid-template-columns: repeat(2, max-content);
 
   @media (max-width: $breakpoint) {
     grid-template-columns: 100%;
-    width: 95vw;
     text-align: center;
   }
 
