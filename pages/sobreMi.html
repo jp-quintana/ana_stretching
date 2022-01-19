@@ -34,7 +34,7 @@
                           Servicios
                       </a>
                       <div id="navDropdown" class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
-                        <div class="contenedorDropdownNav">
+                        <div class="contenedorDropdown contenedorDropdownNav">
                           <div>
                               <p class="tituloDropdown">Presencial / Online</p>
                               <div class="dropdown-divider"></div>
@@ -226,7 +226,7 @@
     </main>
 
     <footer class="footer">
-          <nav class="navFooter">
+          <nav class="navFooter navbar">
             <div class="contenedorLogoFooter">
               <img src="../assets/inicio/logoFooter.svg" class="logoFooter" alt="logo">
             </div>
@@ -236,8 +236,26 @@
             <div class="sobreNavFooter">
               <a href="sobreMi.html" class="textoNavFooter colorLetrasFooter">Sobre mi</a>
             </div>
-            <div class="serviciosNavFooter">
-              <a href="#" class="textoNavFooter colorLetrasFooter">Servicios</a>
+            <div class="serviciosNavFooter dropup">
+              <a class="nav-link dropdown-toggle itemRedesFooter colorLetrasFooter" href="#" id="footerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+              </a>
+              <div id="navDropdown" class="dropdown-menu dropdown-content contenedorDropdownFooter" aria-labelledby="footerDropdown">
+                <div class="contenedorDropdown">
+                  <div>
+                      <p class="tituloDropdown">Presencial / Online</p>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="servicios_pilates.html">Pilates</a>
+                      <a class="dropdown-item" href="servicios_stretching.html">Stretching</a>
+                      <a class="dropdown-item" href="servicios_modernJazz.html">Modern Jazz</a>
+                  </div>
+                  <div class="onlineDropdownNav">
+                      <p class="tituloDropdown">Online</p>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="servicios_cursoModernJazz.html"><span>Curso con certificación</span> <br> Modern Jazz</a>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="blogNavFooter">
               <a href="blog.html" class="textoNavFooter colorLetrasFooter">Blog</a>
