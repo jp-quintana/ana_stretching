@@ -19,6 +19,8 @@ header {
   }
 
   &Lista {
+  justify-content: space-between;
+  align-items: center;
   gap: 3rem;
   }
 
@@ -94,36 +96,59 @@ header {
 //PAGES
 // TODO: ARREGLAR NAVBAR
 .headerPages {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 3rem 2rem;
 
-  @media (max-width: 1200px) {
-    justify-content: space-between;
+  @media(max-width: $breakpoint) {
+    padding: 0;
   }
 }
 
 .contenedorLogoHeaderPages {
-  @media (max-width: 1200px) {
+
+  @media (max-width: $breakpoint) {
     display: none;
   }
 
+  & a {
+    margin: 0rem 4rem;
+
+    @media (max-width: 1200px) {
+      margin: 0rem 2rem;
+    }
+
+    @media (max-width: 992px) {
+      margin: 0rem 0rem;
+    }
+
+  }
 }
-.logoHeaderPages {
-  padding: 0 4rem;
-}
+
+// .logoHeaderPages {
+//   padding: 3rem 4rem;
+//
+//   @media (max-width: 1200px) {
+//     padding: 3rem 2rem;
+//   }
+//
+//   @media (max-width: 992px) {
+//     padding: 3rem 0rem;
+//   }
+// }
 
 .contendorLogoResponsiveHeaderPages {
   display: none;
 
-  @media (max-width: 1200px) {
+  @media (max-width: $breakpoint) {
     display: contents;
   }
+
+  & img {
+    margin: 1.5rem 0rem 1.5rem 2rem;
+  }
+
 }
 
 .navbarPages {
-
 
   &Lista {
   justify-content: space-between;
@@ -134,7 +159,7 @@ header {
 }
 
 .navbarTogglerPages {
-  margin-right: 0!important;
+  margin-right: 2rem;
 }
 
 //ACA LO NUEVO

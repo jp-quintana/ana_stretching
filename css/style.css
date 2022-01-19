@@ -101,6 +101,8 @@ header {
     .navbarInicio {
       padding: 3.6rem 0 1rem 0; } }
   .navbarInicioLista {
+    justify-content: space-between;
+    align-items: center;
     gap: 3rem; }
 
 .liServicios {
@@ -153,26 +155,31 @@ header {
     color: #3534BE; }
 
 .headerPages {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 3rem 2rem; }
-  @media (max-width: 1200px) {
+  @media (max-width: 768px) {
     .headerPages {
-      justify-content: space-between; } }
+      padding: 0; } }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .contenedorLogoHeaderPages {
     display: none; } }
 
-.logoHeaderPages {
-  padding: 0 4rem; }
+.contenedorLogoHeaderPages a {
+  margin: 0rem 4rem; }
+  @media (max-width: 1200px) {
+    .contenedorLogoHeaderPages a {
+      margin: 0rem 2rem; } }
+  @media (max-width: 992px) {
+    .contenedorLogoHeaderPages a {
+      margin: 0rem 0rem; } }
 
 .contendorLogoResponsiveHeaderPages {
   display: none; }
-  @media (max-width: 1200px) {
+  @media (max-width: 768px) {
     .contendorLogoResponsiveHeaderPages {
       display: contents; } }
+  .contendorLogoResponsiveHeaderPages img {
+    margin: 1.5rem 0rem 1.5rem 2rem; }
 
 .navbarPagesLista {
   justify-content: space-between;
@@ -180,7 +187,7 @@ header {
   gap: 3rem; }
 
 .navbarTogglerPages {
-  margin-right: 0 !important; }
+  margin-right: 2rem; }
 
 .contenedorDropdownNav {
   display: grid;
@@ -547,7 +554,6 @@ header {
 
 .sectionPrincipalSobreMi {
   background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Sobre_mi/Imagen_sobre_mi_principal.png);
-  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
