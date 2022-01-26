@@ -516,7 +516,8 @@ header {
 
 .imagenContacto {
   min-width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  border: 2px solid #111111; }
 
 .detalleContacto {
   background: #FFFFFF;
