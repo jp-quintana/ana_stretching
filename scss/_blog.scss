@@ -21,6 +21,8 @@
 }
 
 .sectionArticulosBlog {
+  position: relative;
+  overflow: hidden;
   padding-bottom: 20rem;
 
   @media (max-width: $breakpoint) {

@@ -763,6 +763,10 @@ header {
 .botonServiciosPages {
   margin-top: 3rem; }
 
+.sectionGaleria-Servicios {
+  position: relative;
+  overflow: hidden; }
+
 .h3-sectionGaleria-Servicios {
   margin-top: 2.05rem;
   margin-bottom: 11.977rem; }
@@ -788,6 +792,8 @@ header {
   margin-bottom: 4.065rem; }
 
 .sectionArticulosBlog {
+  position: relative;
+  overflow: hidden;
   padding-bottom: 20rem; }
   @media (max-width: 768px) {
     .sectionArticulosBlog {
