@@ -44,6 +44,12 @@
   padding: 0 6rem;
 }
 
+
+.sectionTrayectoriaSobreMi {
+  position: relative;
+  overflow: hidden;
+}
+
 .h2TrayectoriaSobreMi {
     margin-top: 17.606rem;
     margin-bottom: 2.05rem;
@@ -60,7 +66,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7rem 0;
+  padding: 7rem 0 15rem 0;
+
+  @media (max-width: $breakpoint) {
+    padding: 7rem 0;
+  }
 }
 
 .lineaTrayectoriaSobreMi {

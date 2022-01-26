@@ -597,6 +597,10 @@ header {
 .pPresentacionSobreMi {
   padding: 0 6rem; }
 
+.sectionTrayectoriaSobreMi {
+  position: relative;
+  overflow: hidden; }
+
 .h2TrayectoriaSobreMi {
   margin-top: 17.606rem;
   margin-bottom: 2.05rem; }
@@ -611,7 +615,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 7rem 0; }
+  padding: 7rem 0 15rem 0; }
+  @media (max-width: 768px) {
+    .contenedorLineaTrayectoriaSobreMi {
+      padding: 7rem 0; } }
 
 .lineaTrayectoriaSobreMi {
   position: relative; }
