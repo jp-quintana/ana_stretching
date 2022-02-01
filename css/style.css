@@ -412,20 +412,40 @@ header {
 .h2Testimonios {
   margin-bottom: 2rem; }
 
-.carouselTestimonios {
-  text-align: center;
-  margin: 5rem 0 4rem 0; }
-  @media (max-width: 768px) {
-    .carouselTestimonios {
-      margin: 7rem 0 6rem 0; } }
+.contenidoCarouselTestimonios {
+  height: 100; }
 
-.imagenTestimonios {
-  display: block;
+.contenedorCarouselTestimonios {
+  max-width: 80%;
+  width: 64rem;
   margin: 0 auto; }
 
-.detalleImagenTestimonio {
-  text-align: center;
-  margin-top: 1rem; }
+.contenedorTextoCarouselTestimonio {
+  height: 12rem;
+  margin: 5rem 0;
+  display: flex;
+  align-items: center; }
+  @media (max-width: 768px) {
+    .contenedorTextoCarouselTestimonio {
+      height: 9rem; } }
+
+.textoCarouselTestimonio {
+  margin: 0 auto;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  max-width: 75%; }
+
+.imagenTestimonios {
+  height: 7.2rem;
+  width: 7.2rem; }
+
+.nombresCarouselTestimonio {
+  margin: 1.5rem 0 3.5rem;
+  font-family: New York Extra Large;
+  font-size: 1.8rem;
+  font-weight: 400; }
 
 .entradaMarginBlog {
   margin-top: 7rem; }

@@ -228,13 +228,61 @@
         <section class="sectionTestimoniosInicio">
             <h2 class="h2Testimonios">Nuestros alumnos</h2>
             <h3 class="h3Testimonios">Testimonios</h3>
-            <div>
+            <div class="contenedorCarouselTestimonios">
+              <div id="carouselTestimonios" class="carousel slide capsula__carousel contenidoCarouselTestimonios" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="contenedorTextoCarouselTestimonio">
+                      <p class="text-center textoCarouselTestimonio">Gracias a una excelente profesional, gracias Ana.</p>
+                    </div>
+                    <img src="assets/testimonios/vero.png" class="mx-auto d-block imagenTestimonios" alt="...">
+                    <p class="text-center nombresCarouselTestimonio">Vero</p>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="contenedorTextoCarouselTestimonio">
+                      <p class="text-center textoCarouselTestimonio">Testimonio</p>
+                    </div>
+                    <img src="assets/testimonios/alejandra.png" class="mx-auto d-block imagenTestimonios" alt="...">
+                    <p class="text-center nombresCarouselTestimonio">Alejandra</p>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="contenedorTextoCarouselTestimonio">
+                      <p class="text-center textoCarouselTestimonio">Testimonio</p>
+                    </div>
+                    <img src="assets/testimonios/pato.png" class="mx-auto d-block imagenTestimonios" alt="...">
+                    <p class="text-center nombresCarouselTestimonio">Pato</p>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="contenedorTextoCarouselTestimonio">
+                      <p class="text-center textoCarouselTestimonio">Testimonio</p>
+                    </div>
+                    <img src="assets/testimonios/yeyu.png" class="mx-auto d-block imagenTestimonios" alt="...">
+                    <p class="text-center nombresCarouselTestimonio">Yeyu</p>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- <div>
                 <p class="carouselTestimonios">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc Lorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arcLorem ipsum dolor sit amet, consectetur adipiscing elit. In morbi interdum ac a arc</p>
                 <div class="contenedorImagenTestimonios">
                     <img class="imagenTestimonios" src="assets/inicio/alejandro.png" alt="">
                     <p class="detalleImagenTestimonio">Alejandro</p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <section class="sectionBlogInicio">
@@ -372,6 +420,9 @@
           </nav>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
