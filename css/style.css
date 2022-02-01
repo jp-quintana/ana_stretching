@@ -89,6 +89,14 @@ img {
   margin-bottom: 0;
   font-size: 1.8rem; }
 
+.contenedorCarouselGaleria {
+  max-width: 80%;
+  width: 100rem;
+  margin: 6rem auto 15rem auto; }
+  @media (max-width: 768px) {
+    .contenedorCarouselGaleria {
+      margin: 2.5rem auto 7.5rem auto; } }
+
 header {
   background-color: #FAFAFA; }
 
@@ -362,7 +370,6 @@ header {
   margin: 1.5rem 0 2rem 0; }
 
 .sectionPreguntasFrecuentesInicio {
-  margin-top: 10rem;
   position: relative;
   overflow: hidden;
   padding-bottom: 20rem; }

@@ -111,6 +111,17 @@ img {
   font-size: 1.8rem;
 }
 
+.contenedorCarouselGaleria {
+  max-width: 80%;
+  width: 100rem;
+  margin: 6rem auto 15rem auto;
+
+  @media (max-width: 768px) {
+    margin: 2.5rem auto 7.5rem auto;
+
+  }
+}
+
 @import "header";
 @import "index";
 @import "sobreMi";
