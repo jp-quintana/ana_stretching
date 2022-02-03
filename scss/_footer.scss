@@ -129,7 +129,7 @@
 
 .pRedesFooter {
   margin-bottom: 0;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 
   @media (max-width: 1210px) {
     font-size: 1.5rem;
@@ -137,6 +137,14 @@
 
   @media (max-width: 1065px) {
     font-size: 1.2rem;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.1rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
   }
 }
 
@@ -153,6 +161,11 @@
       width: 1.6rem;
       height: 1.6rem;
     }
+
+    @media (max-width: 768px) {
+      width: 2rem;
+      height: 2rem;
+    }
 }
 
 .sizeIconWhatsapp {
@@ -168,6 +181,11 @@
       width: 2rem;
       height: 2rem;
     }
+
+    @media (max-width: 768px) {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
 }
 
 .sizeIconMail {
@@ -182,6 +200,11 @@
     @media (max-width: 1065px) {
       width: 1.6rem;
       height: 1.6rem;
+    }
+
+    @media (max-width: 768px) {
+      width: 2rem;
+      height: 2rem;
     }
 }
 

@@ -12,6 +12,16 @@
 
 }
 
+.sectionProfesoraSobreMi {
+  padding-bottom: 30rem;
+  position: relative;
+  overflow: hidden;
+
+  @media (max-width: $breakpoint) {
+    padding-bottom: 15rem;
+  }
+}
+
 .h2ProfesoraSobreMi {
     margin-top: 2.1rem;
     margin-bottom: 7.991rem;

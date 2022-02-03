@@ -611,6 +611,14 @@ header {
   height: 70rem;
   margin-bottom: 7.991rem; }
 
+.sectionProfesoraSobreMi {
+  padding-bottom: 30rem;
+  position: relative;
+  overflow: hidden; }
+  @media (max-width: 768px) {
+    .sectionProfesoraSobreMi {
+      padding-bottom: 15rem; } }
+
 .h2ProfesoraSobreMi {
   margin-top: 2.1rem;
   margin-bottom: 7.991rem; }
@@ -1067,13 +1075,19 @@ header {
 
 .pRedesFooter {
   margin-bottom: 0;
-  font-size: 1.8rem; }
+  font-size: 1.4rem; }
   @media (max-width: 1210px) {
     .pRedesFooter {
       font-size: 1.5rem; } }
   @media (max-width: 1065px) {
     .pRedesFooter {
       font-size: 1.2rem; } }
+  @media (max-width: 800px) {
+    .pRedesFooter {
+      font-size: 1.1rem; } }
+  @media (max-width: 768px) {
+    .pRedesFooter {
+      font-size: 1.6rem; } }
 
 .sizeIconInstagram {
   width: 2rem;
@@ -1086,6 +1100,10 @@ header {
     .sizeIconInstagram {
       width: 1.6rem;
       height: 1.6rem; } }
+  @media (max-width: 768px) {
+    .sizeIconInstagram {
+      width: 2rem;
+      height: 2rem; } }
 
 .sizeIconWhatsapp {
   width: 2.4rem;
@@ -1098,6 +1116,10 @@ header {
     .sizeIconWhatsapp {
       width: 2rem;
       height: 2rem; } }
+  @media (max-width: 768px) {
+    .sizeIconWhatsapp {
+      width: 2.4rem;
+      height: 2.4rem; } }
 
 .sizeIconMail {
   width: 2rem;
@@ -1110,6 +1132,10 @@ header {
     .sizeIconMail {
       width: 1.6rem;
       height: 1.6rem; } }
+  @media (max-width: 768px) {
+    .sizeIconMail {
+      width: 2rem;
+      height: 2rem; } }
 
 .contenedorCopyFooter {
   grid-area: copy;
