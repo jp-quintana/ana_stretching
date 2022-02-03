@@ -89,12 +89,12 @@ img {
   margin-bottom: 0;
   font-size: 1.8rem; }
 
-.contenedorCarouselGaleria {
+.contenedorCarouselGeneral {
   max-width: 80%;
   width: 100rem;
   margin: 6rem auto 15rem auto; }
   @media (max-width: 768px) {
-    .contenedorCarouselGaleria {
+    .contenedorCarouselGeneral {
       margin: 2.5rem auto 7.5rem auto; } }
 
 header {
