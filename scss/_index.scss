@@ -406,9 +406,17 @@
 }
 
 .contenedorImagenContacto {
+  height: 100%;
   @media (max-width: $breakpoint) {
     display: none;
   }
+}
+
+.imagenContacto {
+  background-image: url("../assets/Sobre_mi/IMGF 14.jpg");
+  background-size: no-repeat;
+  height: 85rem;
+  background-position: center;
 }
 
 //ESTA IMAGEN TIENE QUE IR COMO UNA BG IMAGE CON COVER
