@@ -480,11 +480,13 @@ header {
 .entradaImparBlog {
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-gap: 2rem; }
+  grid-gap: 2rem;
+  margin-bottom: 15rem; }
   @media (max-width: 768px) {
     .entradaImparBlog {
       grid-template-areas: "imagen" "detalle";
-      grid-template-columns: 100%; } }
+      grid-template-columns: 100%;
+      margin-bottom: 0rem; } }
 
 @media (max-width: 768px) {
   .detalleImparBlog {
@@ -575,7 +577,8 @@ header {
   font-weight: 300;
   font-size: 1.8rem;
   line-height: 4rem;
-  color: #4D4D4D; }
+  color: #4D4D4D;
+  text-align: center; }
 
 .contenedorIconosContacto {
   display: flex;
@@ -1038,7 +1041,7 @@ header {
   grid-area: detalle; }
 
 .pDetalleFooter {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center; }
 
 .contenedorRedesFooter {
@@ -1057,18 +1060,48 @@ header {
 .pRedesFooter {
   margin-bottom: 0;
   font-size: 1.8rem; }
+  @media (max-width: 1210px) {
+    .pRedesFooter {
+      font-size: 1.5rem; } }
+  @media (max-width: 1065px) {
+    .pRedesFooter {
+      font-size: 1.2rem; } }
 
 .sizeIconInstagram {
   width: 2rem;
-  height: 2.1rem; }
+  height: 2rem; }
+  @media (max-width: 1210px) {
+    .sizeIconInstagram {
+      width: 1.8rem;
+      height: 1.8rem; } }
+  @media (max-width: 1065px) {
+    .sizeIconInstagram {
+      width: 1.6rem;
+      height: 1.6rem; } }
 
 .sizeIconWhatsapp {
-  width: 2.6rem;
-  height: 2.6rem; }
+  width: 2.4rem;
+  height: 2.4rem; }
+  @media (max-width: 1210px) {
+    .sizeIconWhatsapp {
+      width: 2.2rem;
+      height: 2.2rem; } }
+  @media (max-width: 1065px) {
+    .sizeIconWhatsapp {
+      width: 2rem;
+      height: 2rem; } }
 
 .sizeIconMail {
   width: 2rem;
   height: 2rem; }
+  @media (max-width: 1210px) {
+    .sizeIconMail {
+      width: 1.8rem;
+      height: 1.8rem; } }
+  @media (max-width: 1065px) {
+    .sizeIconMail {
+      width: 1.6rem;
+      height: 1.6rem; } }
 
 .contenedorCopyFooter {
   grid-area: copy;

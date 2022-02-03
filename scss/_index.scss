@@ -330,11 +330,13 @@
   display: grid;
   grid-template-columns: 40% 60%;
   grid-gap: 2rem;
+  margin-bottom: 15rem;
 
   @media (max-width: $breakpoint) {
     grid-template-areas: "imagen"
                          "detalle";
     grid-template-columns: 100%;
+    margin-bottom: 0rem;
   }
 }
 
@@ -393,10 +395,6 @@
 }
 
 //CONTACTO
-.img14 {
-
-}
-
 .sectionContacto {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -455,6 +453,7 @@
     font-size: 1.8rem;
     line-height: 4rem;
     color: #4D4D4D;
+    text-align: center;
 }
 
 .contenedorIconosContacto {
