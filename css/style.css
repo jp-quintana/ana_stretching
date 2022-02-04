@@ -897,18 +897,19 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70rem;
-  margin-bottom: 7.991rem; }
+  height: 70rem; }
   @media (max-width: 768px) {
     .sectionPrincipalArticulo {
       background-position: 75% 25%; } }
 
-.img-sectionPrincipal-Articulo {
-  width: 128.526rem;
-  height: 48.918rem;
-  margin-bottom: 6.133rem; }
+.sectionArticuloArticulo {
+  margin: 8rem 0; }
 
-.h2-sectionArticulo-Articulo {
+.contenedorArticulo {
+  margin: 0 auto;
+  width: 80%; }
+
+.h2sectionArticuloArticulo {
   font-weight: 500;
   font-size: 3rem;
   line-height: 3.5rem;
@@ -920,14 +921,8 @@ header {
   font-size: 2.3rem;
   line-height: 2.7rem;
   color: #4D4D4D;
-  margin-bottom: 10.092rem;
+  margin-bottom: 5rem;
   text-align: left; }
-
-.sectionArticulo-Articulo {
-  margin: 0rem 18.2rem 11.492rem 18.2rem; }
-
-.List-sectionArticulo-Articulo {
-  list-style-type: disc; }
 
 .p-sectionArticulo-Articulo {
   margin-bottom: 2rem; }
