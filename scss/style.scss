@@ -69,6 +69,14 @@ img {
     height: 6.3rem;
     font-size: 2rem;
     line-height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.botonUneteALaClase:hover {
+  cursor: pointer;
+  color: #FAFAFA;
 }
 
 .espiralCentrado {
