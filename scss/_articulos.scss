@@ -1,3 +1,17 @@
+.sectionPrincipalArticulo {
+  background-image: url('../../assets/articulos_blog/articulo1final.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70rem;
+  margin-bottom: 7.991rem;
+
+  @media (max-width: $breakpoint) {
+    background-position: 75% 25%;
+
+  }
+}
+
 .img-sectionPrincipal-Articulo {
     width: 128.526rem;
     height: 48.918rem;
@@ -8,7 +22,7 @@
     font-weight: 500;
     font-size: 3rem;
     line-height: 3.5rem;
-    color: #242367; 
+    color: #242367;
     margin-bottom: 2.727rem;
     text-align: left;
 }

@@ -885,6 +885,17 @@ header {
 .contenedorBotonBlogPages {
   justify-self: end; }
 
+.sectionPrincipalArticulo {
+  background-image: url("../../assets/articulos_blog/articulo1final.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70rem;
+  margin-bottom: 7.991rem; }
+  @media (max-width: 768px) {
+    .sectionPrincipalArticulo {
+      background-position: 75% 25%; } }
+
 .img-sectionPrincipal-Articulo {
   width: 128.526rem;
   height: 48.918rem;
