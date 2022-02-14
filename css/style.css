@@ -735,8 +735,22 @@ header {
   justify-content: center;
   align-items: center; }
 
+.sectionPrincipal-Servicios.curso-stretching {
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+
+.sectionPrincipal-Servicios.danza-clasica {
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+
+.sectionPrincipal-Servicios.modern-jazz {
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+
+.sectionPrincipal-Servicios.pilates {
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+
+.sectionPrincipal-Servicios.stretching {
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+
 .sectionPrincipal-Servicios {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
