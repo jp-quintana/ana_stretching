@@ -736,19 +736,33 @@ header {
   align-items: center; }
 
 .sectionPrincipal-Servicios.curso-stretching {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url("../assets/servicios/servicios introduccion curso stretching.jpg");
+  background-position: 50% 20%; }
 
 .sectionPrincipal-Servicios.danza-clasica {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url("../assets/servicios/servicios introduccion danza clasica.jpg");
+  background-position: 50% 50%; }
+  @media (max-width: 768px) {
+    .sectionPrincipal-Servicios.danza-clasica {
+      background-position: 50% 75%; } }
 
 .sectionPrincipal-Servicios.modern-jazz {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url("../assets/servicios/servicios introduccion modern jazz.jpg");
+  background-position: 50% 45%; }
+  @media (max-width: 1080px) {
+    .sectionPrincipal-Servicios.modern-jazz {
+      background-position: 70% 45%; } }
 
 .sectionPrincipal-Servicios.pilates {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url("../assets/servicios/servicios introduccion pilates.jpg");
+  background-position: 50% 70%; }
+  @media (max-width: 1080px) {
+    .sectionPrincipal-Servicios.pilates {
+      background-position: 70% 50%; } }
 
 .sectionPrincipal-Servicios.stretching {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/servicios/pexels-karolina-grabowska-4498610.png); }
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url("../assets/servicios/servicios introduccion stretching.jpg");
+  background-position: 50% 20%; }
 
 .sectionPrincipal-Servicios {
   background-position: bottom;
