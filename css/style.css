@@ -99,10 +99,10 @@ img {
 .contenedorCarouselGeneral {
   max-width: 80%;
   width: 100rem;
-  margin: 6rem auto 15rem auto; }
+  margin: 6rem auto 30rem auto; }
   @media (max-width: 768px) {
     .contenedorCarouselGeneral {
-      margin: 2.5rem auto 7.5rem auto; } }
+      margin: 2.5rem auto 15rem auto; } }
 
 header {
   background-color: #FAFAFA; }
@@ -299,10 +299,11 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 0 1rem 6rem; }
+  padding: 0 0 2rem 6rem; }
   @media (max-width: 768px) {
     .liBeneficios {
-      padding-right: 6rem; } }
+      padding-right: 6rem;
+      padding-bottom: 2.7rem; } }
 
 .iconBeneficios {
   width: 6rem;
@@ -364,7 +365,8 @@ header {
 .pServicios {
   color: #4D4D4D;
   font-weight: 300;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  padding-bottom: 1rem; }
 
 .contenedorBotonServicios {
   margin-top: 2rem; }
@@ -648,7 +650,10 @@ header {
       padding: 0 0 2rem 0; } }
 
 .pPresentacionSobreMi {
-  padding: 0 6rem; }
+  padding: 0 12rem; }
+  @media (max-width: 1280px) {
+    .pPresentacionSobreMi {
+      padding: 0 6rem; } }
 
 .sectionTrayectoriaSobreMi {
   position: relative;
@@ -810,7 +815,8 @@ header {
 .div-div-sectionPresentacion-Servicios {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding: 0 2rem; }
 
 .icon-sectionPresentacion-Servicios {
   width: 7.961rem;
@@ -821,7 +827,8 @@ header {
   font-size: 1.8rem;
   line-height: 2.1rem;
   color: #3534BE;
-  margin-top: 1.844rem; }
+  margin-top: 1.844rem;
+  text-align: center; }
 
 .divP-sectionPresentacion-Servicios {
   display: grid;
@@ -833,7 +840,7 @@ header {
       flex-direction: column-reverse;
       gap: 2.5rem; }
       .divP-sectionPresentacion-Servicios div {
-        padding: 0 3rem; } }
+        padding: 1rem 3rem 0rem 3rem; } }
 
 .p-sectionPresentacion-Servicios {
   padding-right: 8rem; }

@@ -94,6 +94,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2rem;
 }
 
 .icon-sectionPresentacion-Servicios {
@@ -107,6 +108,7 @@
     line-height: 2.1rem;
     color: #3534BE;
     margin-top: 1.844rem;
+    text-align: center;
 }
 
 .divP-sectionPresentacion-Servicios {
@@ -120,7 +122,7 @@
       gap: 2.5rem;
 
       & div {
-        padding: 0 3rem;
+        padding: 1rem 3rem 0rem 3rem;
       }
     }
 }
