@@ -147,7 +147,7 @@ header {
 .imgPrincipalInicio {
   display: block;
   margin: 0 auto;
-  padding: 0 2rem 3rem 2rem; }
+  padding: 12.65rem 2rem 15.65rem 2rem; }
 
 .pPSD {
   color: #3534BE;
@@ -978,8 +978,8 @@ header {
   margin-bottom: 4rem; }
 
 .sectionPrincipalPreguntasFrecuentes {
-  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
-  background-position: bottom;
+  background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url("../assets/Preg_frecuentes/preguntas introduccion.jpg");
+  background-position: 50% 25%;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -988,6 +988,9 @@ header {
   align-items: center;
   height: 70rem;
   margin-bottom: 7.991rem; }
+  @media (max-width: 768px) {
+    .sectionPrincipalPreguntasFrecuentes {
+      background-position: top; } }
 
 .contenidoPreguntasFrecuentes {
   padding-bottom: 23rem;

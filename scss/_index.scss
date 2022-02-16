@@ -1,11 +1,9 @@
 //ELEMENTOS
-//HAY QUE VER RESPONSIVENESS
 .elementoGraficoEsquina {
     position: absolute;
     width: 60rem;
     height: 66rem;
     z-index: -1;
-    // transform: rotate(128.39deg);
 
     @media (max-width: $breakpoint) {
       width: 18rem;

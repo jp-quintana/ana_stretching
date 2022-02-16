@@ -1,6 +1,6 @@
 .sectionPrincipalPreguntasFrecuentes {
-    background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url(../assets/Preg_frecuentes/pexels-elina-fairytale-3823154.png);
-    background-position: bottom;
+    background-image: linear-gradient(rgba(53, 52, 190, 0.35), rgba(53, 52, 190, 0.35)), url('../assets/Preg_frecuentes/preguntas introduccion.jpg');
+    background-position: 50% 25%;
     background-size: cover;
     background-repeat: no-repeat;  //arreglar visualización de la imagen
     display: flex;
@@ -9,6 +9,11 @@
     align-items: center;
     height: 70rem;
     margin-bottom: 7.991rem;
+
+    @media (max-width: $breakpoint) {
+      background-position: top;
+
+    }
 }
 
 .contenidoPreguntasFrecuentes {
